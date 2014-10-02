@@ -9,11 +9,3 @@ github_username:  Xeaza
 
 # Build settings
 markdown: kramdown
-
-source 'https://rubygems.org'
-
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-gem 'github-pages', versions['github-pages']
