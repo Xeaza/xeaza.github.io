@@ -1,0 +1,19 @@
+# Site settings
+title: Taylor Wright-Sanson
+email: taylorwrightsanson@gmail.com
+description: ># "Taylor Wright-Sanson •Professional unicyclist •Circus performer •iOS and web, developer and designer"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: TWrightSanson
+github_username:  Xeaza
+
+# Build settings
+markdown: kramdown
+
+source 'https://rubygems.org'
+
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
