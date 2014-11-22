@@ -22,7 +22,7 @@ html {
 
 body {
 	background: $darkBlue;
-  /*font: 18px/1.4 $avenierNextMed;*/
+  font-family: $avenierNextMed;
   text-align: center;
   width: 100%;
   /*visibility: hidden;*/
@@ -164,8 +164,8 @@ r {
 }
 
 #logo {
-  font-size: 1.1em;
-  margin: 18px 0 0 8%;
+  font-size: 40px;
+  margin: 24px 0 0 8%;
   text-align: left;
   display: inline-block;
   float: left;
@@ -186,7 +186,7 @@ nav {
   top: 0;
   z-index: 1000;
   height: 75px;
-  background-color: #white;
+  background-color: $white;
 
   display: block;
 
@@ -216,9 +216,11 @@ nav {
 
 nav ul {
   text-align: center;
-  margin: 32px 0 0 0;
+  margin: 37px 0 0 0;
   display: inline-block;
   float: left;
+  font-size: 12px;
+  padding: 0;
 }
 
 nav ul li {
