@@ -7,20 +7,25 @@
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-    <meta name="author" content="{{ site.name }}" />
+    <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{{ site.description }}">
 
+    <meta name="keywords" content="{{ site.keywords }}" />
+
+    <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">
+    <link rel="icon" href="{{ site.favicon }}" type="image/x-icon">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
+    <!-- This is from the original site
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -37,7 +42,26 @@
           </nav>
         </header>
       </div>
-    </div>
+    </div> -->
+
+    <nav>
+      <!-- This line menu is hidden until the screen is small enough -->
+      <div id="lineMenu"><a href="#">☰</a></div>
+      <div id="logo"><a href="index.html">
+        <!-- Each letter is a different weight, hence the elements created for styling them -->
+        <ta>TA</ta><y>Y</y><l>L</l><o>O</o><r>R</r> wrig<em>h</em>t-sanson</a>
+      </div>
+      <ul id="hiddingMenu">
+        <img src="images/star.svg" class="starIcons">
+        <li><a href="developer+designer.html">developer & des<em>i</em>gne<em>r</em></a></li>
+        <img src="images/star.svg" class="starIcons">
+        <li><a href="circus+performer.html">circus p<em>e</em>rformer</a></li>
+        <img src="images/star.svg" class="starIcons">
+        <li><a href="artist-inprogress.html">artist</a></li>
+        <img src="images/star.svg" class="starIcons">
+        <li><a href="you-name-it-inprogress.html">you na<em>me</em> it</a></li>
+      </ul>
+    </nav>
 
     <div id="main" role="main" class="container">
       {{ content }}
