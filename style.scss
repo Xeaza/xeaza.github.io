@@ -83,6 +83,10 @@ a {
   }
 }
 
+a:hover {
+  color: $redHighLight;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
@@ -122,13 +126,10 @@ img {
 }
 
 // Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
+::selection { 
+    background: $redHighLight; 
+    color:#fff; 
+    text-shadow: none; 
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -231,7 +232,7 @@ nav li a {
   text-decoration: none;
   font-size: 2em;
   display: inline-block;
-  color: #turquoiseColor;
+  color: $turquoiseColor;
 
 }
 
