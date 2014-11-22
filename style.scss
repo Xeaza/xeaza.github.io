@@ -27,12 +27,12 @@ body {
   visibility: hidden;
 }
 
-.container {
+/*.container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -259,7 +259,7 @@ nav li a:hover, #logo a:hover{
 // .masthead
 //
 
-.wrapper-masthead {
+/*.wrapper-masthead {
   margin-bottom: 50px;
 }
 
@@ -270,7 +270,7 @@ nav li a:hover, #logo a:hover{
   @include mobile {
     text-align: center;
   }
-}
+}*/
 
 .site-avatar {
   float: left;
