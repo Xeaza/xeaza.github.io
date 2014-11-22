@@ -5,6 +5,11 @@
 
 // Colors
 $blue: #4183C4; 
+$darkBlue: #222438
+$turquoise: #0DA4B5
+$darkPurple: #410573
+$redHighLight: #C70455
+$lightGreen: #7efa73
 
 // Grays
 $black: #000;
@@ -18,6 +23,7 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$avenierNextMed: AvenirNext-Medium;
 
 // Mobile breakpoints
 @mixin mobile {

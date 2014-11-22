@@ -9,6 +9,9 @@
 @import "_variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+/*resume must be at http://www.taylorwrightsanson.com/techresume.pdf */
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -18,9 +21,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: $darkBlue;
+  /*font: 18px/1.4 $avenierNextMed;*/
+  text-align: center;
+  visibility: hidden;
 }
 
 .container {
@@ -66,14 +70,15 @@ h4 {
 
 p {
   margin: 15px 0;
+  text-align: left;
 }
 
 a {
-  color: $blue;
+  color: $turquoise;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $redHighLight;
   }
 }
 
@@ -135,6 +140,115 @@ img {
 
 .clearfix:after {
     clear: both;
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+ta {
+  font-family: AvenirNext-Heavy;
+}
+y {
+  font-family: AvenirNext-Bold;
+}
+l {
+  font-family: AvenirNext-DemiBold;
+}
+o {
+  font-family: AvenirNext-Medium;
+}
+r {
+  font-family: AvenirNext-Regular;
+}
+
+#logo {
+  font-size: 3.1em;
+  margin: 18px 0 0 8%;
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+
+#lineMenu {
+  display: none;
+}
+
+nav {
+  /*float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue; 
+  font-size: 18px; */
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 75px;
+  background-color: #white;
+
+  display: block;
+
+  -webkit-box-shadow:  0px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:  0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+  /*@include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }*/
+
+  /*a {
+    margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }*/
+}
+
+nav ul {
+  text-align: center;
+  margin: 32px 0 0 0;
+  display: inline-block;
+  float: left;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 2em;
+  display: inline-block;
+  color: #turquoise;
+
+}
+
+nav li a:hover em, #logo a:hover em{
+  color:#darkPurple;
+}
+
+nav li a:hover, #logo a:hover{
+  color: #turquoise;
+  text-shadow: 1px 0px 1px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=0);
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.starIcons {
+  max-height: 17px;
+  margin: 0 5px 0 5px;
 }
 
 /*********************/
@@ -202,33 +316,6 @@ img {
   
   @include mobile {
     margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
-  font-size: 18px;
-  
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
   }
 }
 
