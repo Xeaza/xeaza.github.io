@@ -36,11 +36,11 @@ body {
 }*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $avenirNext;
+  color: $turquoiseColor;
   font-weight: bold;
   
-  line-height: 1.7;
+  line-height: 1;
   /* margin: 1em 0 15px;*/
   padding: 0;
 
@@ -72,6 +72,8 @@ h4 {
 p {
   margin: 15px 0;
   text-align: left;
+  font-family: $avenirNextReg;
+  line-height: 35px;
 }
 
 a {
@@ -311,7 +313,7 @@ nav li a:hover, #logo a:hover{
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $avenirNext; 
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -372,7 +374,7 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: avenirNextReg, sans-serif;
+  font-family: $avenirNextReg, sans-serif;
   font-size: 30px;
 }
 section.module p {
@@ -385,7 +387,7 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 40px 0;
-  width: 600px;
+  width: 650px;
   margin: auto;
 }
 section.module.parallax {
