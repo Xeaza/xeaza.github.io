@@ -22,7 +22,7 @@ html {
 
 body {
 	background: $white;
-  font-family: $avenierNextMed;
+  font-family: $avenirNextMed;
   text-align: center;
   width: 100%;
   /*visibility: hidden;*/
@@ -149,19 +149,19 @@ img {
 /**********/
 
 ta {
-  font-family: AvenirNext-Heavy;
+  font-family: $avenirNextHeavy;
 }
 y {
-  font-family: AvenirNext-Bold;
+  font-family: $avenirNextBold;
 }
 l {
-  font-family: AvenirNext-DemiBold;
+  font-family: $avenirNextDemi;
 }
 o {
-  font-family: AvenirNext-Medium;
+  font-family: $avenirNextMed;
 }
 r {
-  font-family: AvenirNext-Regular;
+  font-family: $avenirNextReg;
 }
 
 #logo {
@@ -372,7 +372,7 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: avenirNextReg, sans-serif;
   font-size: 30px;
 }
 section.module p {
