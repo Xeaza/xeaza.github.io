@@ -45,37 +45,31 @@
     <nav>
       <!-- This line menu is hidden until the screen is small enough -->
       <div id="lineMenu"><a href="#">☰</a></div>
-      <div id="logo"><a href="index.html">
+      <div id="logo"><a href="{{ site.baseurl }}">
         <!-- Each letter is a different weight, hence the elements created for styling them -->
         <ta>TA</ta><y>Y</y><l>L</l><o>O</o><r>R</r> wrig<em>h</em>t-sanson</a>
       </div>
       <ul id="hiddingMenu">
-        <img src="images/star.svg" class="starIcons">
-        <li><a href="developer+designer.html">developer & des<em>i</em>gne<em>r</em></a></li>
-        <img src="images/star.svg" class="starIcons">
+        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
+        <li><a href="{{ site.baseurl }}/about">developer & des<em>i</em>gne<em>r</em></a></li>
+        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
         <li><a href="circus+performer.html">circus p<em>e</em>rformer</a></li>
-        <img src="images/star.svg" class="starIcons">
+        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
         <li><a href="artist-inprogress.html">artist</a></li>
-        <img src="images/star.svg" class="starIcons">
+        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
         <li><a href="you-name-it-inprogress.html">you na<em>me</em> it</a></li>
       </ul>
     </nav>
 
     <div id="main" role="main" class="container">
-      <!--{{ content }}-->
       <section class="module parallax parallax-1">
         <div class="container">
-          <h1></h1>
         </div>
       </section>
 
       <section class="module content">
         <div class="container">
-          <h2>Lorem Ipsum Dolor</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum distinctio eum asperiores rem enim fugit eaque voluptas est laboriosam in repudiandae architecto placeat, illum atque quasi explicabo, culpa, molestias!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas, aperiam quae provident, recusandae rem quis. Ut quaerat, quasi iste voluptate et dolorem atque sed neque voluptates, molestias dolor enim!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit tempore, quibusdam impedit deserunt. Natus quisquam, facilis numquam, molestias nesciunt modi, at debitis maxime sunt et quo quas labore perferendis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde delectus laborum doloremque recusandae, debitis maxime a! Nihil distinctio ex, cumque tempore ea voluptas omnis odit, quaerat natus nam excepturi corporis!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius harum atque unde nihil aut quam provident sunt, iste error vitae suscipit dolores cupiditate totam, eum quae alias! Dicta, nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae impedit officia quis odit rerum sequi, explicabo commodi illum suscipit, tempore eum doloremque quae obcaecati tempora quidem neque sapiente modi?</p>
+          {{ content }}
         </div>
       </section>
     </div>
