@@ -23,7 +23,7 @@ html {
 body {
 	background: $white;
   font-family: $avenirNextMed;
-  text-align: center;
+  /*text-align: center;*/
   width: 100%;
   /*visibility: hidden;*/
 }
@@ -38,8 +38,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $avenirNext;
   color: $turquoiseColor;
-  font-weight: bold;
-  
+  text-align: left;
   line-height: 1;
   /* margin: 1em 0 15px;*/
   padding: 0;
@@ -50,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {  
-  font-size: 30px;
+  font-size: 36px;
+  font-weight: bold;
   a {
     color: inherit;
   }
@@ -58,6 +58,9 @@ h1 {
 
 h2 {  
   font-size: 24px;
+  font-weight: normal;
+  font-family: $avenirNextReg;
+  color: $lightGray;
 }
 
 h3 {  
@@ -73,7 +76,10 @@ p {
   margin: 15px 0;
   text-align: left;
   font-family: $avenirNextReg;
-  line-height: 35px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
 }
 
 a {
@@ -372,15 +378,10 @@ section {
 section.module:last-child {
   margin-bottom: 0;
 }
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: $avenirNextReg, sans-serif;
-  font-size: 30px;
-}
+
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 section.module p:last-child {
   margin-bottom: 0;
@@ -422,18 +423,18 @@ section.module.parallax-3 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    /*font-size: 42px;*/
   }
   section.module p {
-    font-size: 20px;
+    /*font-size: 20px;*/
   }
   section.module.parallax h1 {
-    font-size: 96px;
+    /*font-size: 96px;*/
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    /*font-size: 160px;*/
   }
 }
 
