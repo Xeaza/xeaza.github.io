@@ -23,12 +23,17 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$avenirNextMed: "AvenirNext-Medium";
+
+$avenirNext: "Avenir Next", Avenir, sans-serif;
+
 $avenirNextReg: "AvenirNext-Regular";
+$avenirNextMed: "AvenirNext-Medium";
 $avenirNextDemi: "AvenirNext-DemiBold";
 $avenirNextBold: "AvenirNext-Bold";
 $avenirNextHeavy: "AvenirNext-Heavy";
-
+$avenirNextLight: "AvenirNext-UltraLight";
+$avenirNextItalic: "AvenirNext-Italic";
+	
 
 // Mobile breakpoints
 @mixin mobile {
