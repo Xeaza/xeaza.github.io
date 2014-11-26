@@ -2,18 +2,32 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <!-- <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> -->
-      <h1>{{ post.title }}</h1>
+<div id="main" role="main" class="container">
+      <section class="module parallax parallax-1">
+        <div class="container">
+          <!-- Put in welcom message here -->
+        </div>
+      </section>
 
-      <div class="entry">
-        {{ post.content | truncatewords:400}}
-      </div>
-      
-      <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-    </article>
-  {% endfor %}
-</div>
+      <section class="module content">
+        <div class="container">
+          <div class="posts">
+            {% for post in site.posts %}
+              <article class="post">    
+                
+                <!-- <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> -->
+                <h1>{{ post.title }}</h1>
+
+                <div class="entry">
+                  {{ post.content | truncatewords:400}}
+                </div>
+                
+                <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </div>
+
+    
