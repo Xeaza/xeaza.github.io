@@ -24,7 +24,6 @@ body {
 	background: $white;
   font-family: $avenirNextMed;
   /*text-align: center;*/
-  width: 100%;
   /*visibility: hidden;*/
 }
 
@@ -51,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {  
   font-size: 36px;
   font-weight: bold;
+  display: inline;
   a {
     color: inherit;
   }
@@ -335,6 +335,43 @@ nav li a:hover, #logo a:hover{
   }
 }
 
+/* Home Welcome */
+#welcome {
+  width: 50%;
+  position: absolute;
+  top: 200px;
+  text-align: left;
+  margin: 100px 0px 0px 3%;
+  height: 180px !important;
+}
+
+#welcome p {
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 15px 0px 15px 15px;
+  color: $turquoiseColor;
+  text-shadow: 0px 2px 1px #000;
+  width: 100%;
+  font-family: $avenirNextMed;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.lookHereBox {
+  background-color: rgba(20, 20, 20, 0.9);
+  position:absolute;
+  width:300px;
+  height:25px;
+  bottom:0px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+}
+
+.lookHereBox h2 {
+  text-align: center;
+  color: $turquoiseColor;
+}
+
 .readTime {
   /*background-color: rgba(20, 20, 20, 0.9);*/
   width: 70px;
@@ -453,7 +490,7 @@ section.module.parallax-3 {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $darkBlue;
 }
 
 footer {
