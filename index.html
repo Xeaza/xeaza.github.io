@@ -3,29 +3,29 @@ layout: post
 ---
 
 <div id="main" role="main" class="container">
-      <section class="module home parallax parallax-1">
-        <article id="welcome"><p>Thanks for stopping by. <br> My name is Taylor Wright-Sanson. I wear many hats. You’ll be able to find out about a few of them here. My degree is in Computer Science and Interface Design, from Wheaton College in MA. I love designing and developing websites and iPhone apps and for the right price I’ll do it all while riding a unicycle. </p>
-        </article>
-        <div class="lookHereBox">
-          <h2>↓ What I'm up to now ↓</h2>
-        </div>
-      </section>
+  <section class="module home parallax parallax-1">
+    <article id="welcome"><p>Thanks for stopping by. <br> My name is Taylor Wright-Sanson. I wear many hats. You’ll be able to find out about a few of them here. My degree is in Computer Science and Interface Design, from Wheaton College in MA. I love designing and developing websites and iPhone apps and for the right price I’ll do it all while riding a unicycle. </p>
+    </article>
+    <div class="lookHereBox">
+     <h2>↓ What I'm up to now ↓</h2>
+   </div>
+  </section>
 
-      <section class="module home content">
-        <div class="container">
-          <div class="posts">
-           {% for post in site.posts limit:1 %}
-                <h1>{{ post.title }}</h1>
+  <section class="module home content">
+    <div class="container">
+      <div class="posts">
+       {% for post in site.posts limit:1 %}
+            <h1>{{ post.title }}</h1>
 
-                <div class="entry">
-                  {{ post.content | truncatewords:400}}
-                </div>
-                
-                <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
-            {% endfor %}
-          </div>
-        </div>
-      </section>
+            <div class="entry">
+              {{ post.content | truncatewords:400}}
+            </div>
+            
+            <!-- <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> -->
+        {% endfor %}
+      </div>
     </div>
+  </section>
+</div>
 
 
