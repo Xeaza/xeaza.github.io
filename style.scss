@@ -417,26 +417,6 @@ nav li a:hover, #logo a:hover{
 
 // Index content paralax
 
-section {
-  margin: 20px 0 0 0;
-}
-
-section.module.home:last-child {
-  margin-bottom: 0;
-}
-
-section.module.home p {
-  margin-bottom: 40px;
-  /*font-weight: 300;*/
-}
-section.module.home p:last-child {
-  margin-bottom: 0;
-}
-section.module.home.content {
-  padding: 40px 0;
-  width: 650px;
-  margin: auto;
-}
 section.module.home.parallax {
   top: 0;
   height: 800px;
@@ -447,16 +427,6 @@ section.module.home.parallax {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-section.module.home.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 600px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.home.parallax-1 {
   background-image: url("../images/blueBlur.jpg");
@@ -528,6 +498,23 @@ section.module.parallax-3 {
   }
 }
 
+// Circus parallax
+
+section.module.circus.parallax {
+  top: 0;
+  height: 800px;
+  /* background-position: 50% 50%; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.circus.parallax-1 {
+  /*background-image: url("../images/tent.jpg");*/
+  background-color: $darkBlue;
+}
 
 
 .wrapper-footer {
