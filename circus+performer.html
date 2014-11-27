@@ -3,7 +3,7 @@ layout: default
 title: Circus Performer
 permalink: /circus+performer/
 ---
-
+<script type="text/javascript" src="/jquery-1.11.0.min.js"></script>
 <div id="main" role="main" class="container">
 	<section class="module circus parallax parallax-1">
 		<div id="videoHolder">
@@ -58,6 +58,21 @@ permalink: /circus+performer/
 					</figure>
 				</div>
 			</div>
+			<script>
+			//$(document).ready(function($) {
+				// Code to load youtube videos
+				jQuery(".youtube-video a").click(function (){
+					$(".vidFrame").remove();
+					// jQuery(this).parent().show();
+				    var videoID = jQuery(this).attr("href").split("=");
+				    var videoWidth = parseInt(jQuery(this).parent().css("max-width"));
+				    var videoHeight = Math.ceil(videoWidth*(0.56)+1);
+
+				    jQuery(this).parent().parent().prepend('<iframe class="vidFrame" width="100%" height="'+videoHeight+'" src="http://www.youtube.com/embed/'+(videoID[1])+'?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+				    return false;
+				});
+			//});
+			</script>
 		</div>
 	</section>
 
