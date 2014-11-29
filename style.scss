@@ -500,20 +500,20 @@ section.module.parallax-3 {
 
 // Circus parallax
 
-section.module.circus.parallax-1 {
-  top: 0;
-  height: 800px;
-  /* background-position: 50% 50%; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+section.module.circus {
+    height: 800px;
 }
-
+section.module.circus.parallax-2 {
+  height: 750px;
+  padding-top: 25px;
+}
 section.module.circus.parallax-1 {
   background-image: url("../images/tent.jpg");
+}
+
+section.module.circus.parallax-2 {
+  background-image: url();
+  background-color: $darkBlue;
 }
 
 #videoHolder {
@@ -570,11 +570,41 @@ section.module.circus.parallax-1 {
   height: 100%;
 }
 
+/* Responsive slides */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  max-width: 960px;
+  max-height: 680px;
+  padding: 0;
+  margin: 0 auto;
+ }
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+ }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+ }
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+ }
+
 
 .wrapper-footer {
-  margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $darkBlue;
 }
 
