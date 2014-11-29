@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="posts">
+	{% for post in site.posts %}
+  		<section class="module parallax parallax-1">
+		
+		</section>
+      	<section class="module content">
+			<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+			<div class="entry">
+			{{ post.content }}
+			</div>
+		</section>
+  {% endfor %}
+</div>
