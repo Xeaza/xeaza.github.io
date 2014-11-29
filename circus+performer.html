@@ -4,6 +4,8 @@ title: Circus Performer
 permalink: /circus+performer/
 ---
 <script type="text/javascript" src="/jquery-1.11.0.min.js"></script>
+<script src="/responsiveslides.min.js"></script>
+
 <div id="main" role="main" class="container">
 	<section class="module circus parallax parallax-1">
 		<div id="videoHolder">
@@ -16,9 +18,7 @@ permalink: /circus+performer/
 	<section class="module home content">
     	<div class="container">
 			<div id="showcase">
-				<div id="trigger" class="spacer s0"></div>
 				<h1>Videos</h1>
-				<br></br>
 				<div class="gallery">
 					<figure class="youtube-video">
 						<a href="http://www.youtube.com/watch?v=0jNrdXWn9eI"> 
@@ -74,6 +74,25 @@ permalink: /circus+performer/
 			//});
 			</script>
 		</div>
+	</section>
+
+	<section class="module circus parallax parallax-2">
+		<!-- Responsive slide show with all of the images 
+		Find out more information about this slideshow here: http://responsiveslides.com/ -->
+		<ul class="rslides">
+		  <li><img src="{{ site.baseurl }}/images/circus/twoHigh.png" alt=""></li>
+		  <li><img src="{{ site.baseurl }}/images/circus/jumpRope.png" alt=""></li>
+		  <li><img src="{{ site.baseurl }}/images/circus/5stack.png" alt=""></li>
+		  <li><img src="{{ site.baseurl }}/images/circus/rolaHoops.png" alt=""></li>
+		  <li><img src="{{ site.baseurl }}/images/circus/rolaBackflip.png" alt=""></li>
+		  <li><img src="{{ site.baseurl }}/images/circus/headshotIce.png" alt=""></li>
+		</ul>	
+		<!-- Calls the slideshow -->
+		<script>
+			$(function() {
+				$(".rslides").responsiveSlides();
+			});
+		</script>
 	</section>
 
 </div>
