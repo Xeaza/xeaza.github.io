@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'> -->
+    <!-- This needs to be there so that the site works on retina mobile devices -->
+    <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
