@@ -275,7 +275,7 @@ nav li a:hover, #logo a:hover{
 @media (max-width: 1292px) {
   #logo {
     float: inherit;
-    margin: 10px 0 5px 0;
+    margin: 10px 0 5px 31px;
     text-align: center;
     display: block;
   }
@@ -292,6 +292,55 @@ nav li a:hover, #logo a:hover{
   }
 }
 
+@media (max-width: 775px) {
+  #logo {
+    font-size: 33px;
+    padding-top: 5px;
+    float: inherit;
+    display: inline-block;
+    margin: 13px 0 4px 30%;
+  }
+
+  nav ul {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 701px) {
+  #lineMenu {
+    display: inherit;
+    margin: 25px 10px 0 0;
+    font-size: 1.9em;
+    position: absolute;
+    right: 20px;
+    color: #0DA4B5;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  #logo {
+    margin-left: 23%;
+  }
+}
+
+@media (max-width: 550px) {
+  #logo {
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 430px) {
+  #logo {
+    font-size: 31px;
+    margin: 19px 0 0 6px;
+  }
+
+  #lineMenu {
+    margin-right: 0px;
+  }
+}
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
@@ -471,8 +520,8 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
-  width: 650px;
+  padding: 40px 10px;
+  max-width: 650px;
   margin: auto;
 }
 section.module.parallax {
