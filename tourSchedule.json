@@ -2,7 +2,7 @@
 	"tourSchedule": [
 		{
 			"townAndState": "Greensboro, VT",
-			"showDates": "June 29",
+			"showDates": ["2014-09-29"],
 			"showTimes": ["Sunday 1pm & 6pm"],
 			"longitude": -36.43429,
 			"latitude": -9.81068,
@@ -12,7 +12,7 @@
 		},
 		{
 			"townAndState": "St. Johnsbury, VT",
-			"showDates": "July 2-3",
+			"showDates": ["2014-12-10", "2014-12-11"],
 			"showTimes": ["Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
 			"longitude": -74.20466,
 			"latitude": -21.38641,
@@ -22,7 +22,7 @@
 		},
 		{
 			"townAndState": "Hanover, NH",
-			"showDates": "July 5-6",
+			"showDates": ["2014-12-13", "2014-12-15"],
 			"showTimes": ["Saturday 2pm & 7pm", "Sunday 11am & 4pm"],
 			"longitude": 111.93374,
 			"latitude": -9.08917,
@@ -32,7 +32,7 @@
 		},
 		{
 			"townAndState": "Essex Junction, VT",
-			"showDates": "July 8-10",
+			"showDates": ["2014-12-17", "2014-12-18"],
 			"showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
 			"longitude": -129.34537,
 			"latitude": 27.14660,
@@ -42,7 +42,7 @@
 		},
 		{
 			"townAndState": "Saratoga Springs, NY",
-			"showDates": "July 12-13",
+			"showDates": ["2014-12-20", "2014-12-21"],
 			"showTimes": ["Saturday 1pm & 7pm", "Sunday 1pm & 7pm"],
 			"longitude": -145.77467,
 			"latitude": 64.93635,
@@ -52,7 +52,7 @@
 		},
 		{
 			"townAndState": "Swanzey, NH",
-			"showDates": "July 15-16",
+			"showDates": ["2014-12-23", "2014-12-24"],
 			"showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm"],
 			"longitude": 133.01080,
 			"latitude": -14.70931,
@@ -62,7 +62,7 @@
 		},
 		{
 			"townAndState": "Great Barrington, MA",
-			"showDates": "July 18-19",
+			"showDates": ["2014-12-26", "2014-12-27"],
 			"showTimes": ["Friday 2pm & 7pm", "Saturday 2pm & 7pm"],
 			"longitude": 32.23580,
 			"latitude": 21.81171,
@@ -72,7 +72,7 @@
 		},
 		{
 			"townAndState": "Northampton, MA",
-			"showDates": "July 29-30",
+			"showDates": ["2015-01-01", "2015-01-02"],
 			"showTimes": ["Tueady 1pm & 7pm", "Wednesday 1pm & 7pm"],
 			"longitude": 22.09237,
 			"latitude": -10.20485,
@@ -82,7 +82,7 @@
 		},
 		{
 			"townAndState": "Kennebunkport, ME",
-			"showDates": "August 7-9",
+			"showDates": ["2015-01-04", "2015-01-05", "2015-01-06"],
 			"showTimes": ["Thursday 1pm & 6pm", "Friday 1pm & 6pm"],
 			"longitude": 73.84574,
 			"latitude": 63.16496,
@@ -92,7 +92,7 @@
 		},
 		{
 			"townAndState": "Montpelier, VT",
-			"showDates": "August 10-13",
+			"showDates": ["2015-01-08", "2015-01-09", "2015-01-10", "2015-01-11"],
 			"showTimes": ["Sunday 4pm", "Monday 2pm & 7pm", "Tuesday  2pm & 7pm", "Wednesday  2pm & 7pm"],
 			"longitude": -1.54681,
 			"latitude": -11.51225,
