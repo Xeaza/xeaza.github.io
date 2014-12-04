@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $avenirNext;
   color: $turquoiseColor;
   text-align: left;
-  line-height: 1;
+  line-height: 1.4;
   /* margin: 1em 0 15px;*/
   padding: 0;
 
@@ -294,11 +294,18 @@ nav li a:hover, #logo a:hover{
 }
 
 @media (max-width: 775px) {
+  section.module.home.parallax {
+    height: 364px !important;
+  }
+
+  .lookHereBox {
+    bottom: 418px !important;
+  }
 
   #welcome {
     margin: 0px !important;
     width: 100% !important;
-    top: 144px !important;
+    top: 89px !important;
   }
 
   #welcome p {
@@ -471,7 +478,7 @@ nav li a:hover, #logo a:hover{
   background-color: rgba(20, 20, 20, 0.9);
   position:absolute;
   width:300px;
-  height:25px;
+  height:33px;
   bottom:0px;
   right:25%;
   left:50%;
