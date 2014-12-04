@@ -4,8 +4,8 @@ $(document).ready(function() {
 // Show and hide the line menu that shows up when the site is on mobile
 	$("#lineMenu").click(function(e) {
 		e.preventDefault();
-		$('#hiddingMenu').toggleClass("active");
-		$('#hiddingMenu').toggle();
+		$('#hidingMenu').toggleClass("active");
+		$('#hidingMenu').toggle();
 	});
 	adjustMenu();
 });
@@ -18,15 +18,15 @@ $(window).bind('resize orientationchange', function() {
 // function that shows and hides the css classes that drop down the line menu on mobile
 var adjustMenu = function() {
 	if (ww < 702) {
-		//$("#hiddingMenu").css("display", "inherit");
-		if (!$("#hiddingMenu").hasClass("active")) {
-			$('#hiddingMenu').hide();
+		//$("#hidingMenu").css("display", "inherit");
+		if (!$("#hidingMenu").hasClass("active")) {
+			$('#hidingMenu').hide();
 		} else {
-			$('#hiddingMenu').show();
+			$('#hidingMenu').show();
 		}
 	} 
 	else if (ww >= 702) {
-		$("#hiddingMenu").css("display", "inherit");
-		$('#hiddingMenu').show();
+		$("#hidingMenu").css("display", "inherit");
+		$('#hidingMenu').show();
 	}
 }
