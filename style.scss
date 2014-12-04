@@ -298,6 +298,14 @@ nav li a:hover, #logo a:hover{
     height: 364px !important;
   }
 
+  section.module.parallax {
+    height: 190px !important;
+  }
+
+  section.module.circus.parallax {
+    height: 661px !important;
+  }
+
   .lookHereBox {
     bottom: 418px !important;
   }
@@ -328,6 +336,10 @@ nav li a:hover, #logo a:hover{
 }
 
 @media (max-width: 701px) {
+
+  section.module.circus.parallax {
+    height: 561px !important;
+  }
 
   #lineMenu {
     display: inherit;
@@ -371,6 +383,11 @@ nav li a:hover, #logo a:hover{
 }
 
 @media (max-width: 430px) {
+
+  section.module.circus.parallax {
+    height: 461px !important;
+  }
+
   #logo {
     font-size: 31px;
     margin: 19px 0 0 6px;
