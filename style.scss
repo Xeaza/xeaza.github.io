@@ -238,7 +238,8 @@ nav ul {
   display: inline-block;
   float: left;
   font-size: 12px;
-  padding: 0;
+  background-color: $white;
+  /*padding: 0;*/
 }
 
 nav ul li {
@@ -307,6 +308,10 @@ nav li a:hover, #logo a:hover{
 }
 
 @media (max-width: 701px) {
+  #hiddingMenu {
+    padding: 7px 0px;
+  }
+
   #lineMenu {
     display: inherit;
     margin: 25px 10px 0 0;
@@ -318,6 +323,22 @@ nav li a:hover, #logo a:hover{
 
   nav {
     height: 60px;
+  }
+
+  nav ul {
+    -webkit-box-shadow: 0px 2px 1px .2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 1px .2px rgba(0, 0, 0, 0.2);
+  }
+
+  nav ul li {
+    position: relative;
+    display: block;
+    text-align: right;
+  }
+
+  .starIcons {
+    float: right;
+    margin: 0 34px 0 4px;
   }
 
   #logo {
@@ -335,6 +356,11 @@ nav li a:hover, #logo a:hover{
   #logo {
     font-size: 31px;
     margin: 19px 0 0 6px;
+  }
+
+  .starIcons {
+    float: right;
+    margin: 0 25px 0 4px;
   }
 
   #lineMenu {
