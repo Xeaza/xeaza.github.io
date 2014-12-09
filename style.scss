@@ -289,13 +289,15 @@ nav li a:hover, #logo a:hover{
   }
 }
 
+@media (max-width: 1190px) {
+  section.module.parallax {
+    height: 190px !important;
+  }
+}
+
 @media (max-width: 775px) {
   section.module.home.parallax {
     height: 364px !important;
-  }
-
-  section.module.parallax {
-    height: 190px !important;
   }
 
   section.module.circus.parallax {
@@ -784,6 +786,8 @@ footer {
   text-align: center;
 }
 
+@import "_responsive";
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
+
