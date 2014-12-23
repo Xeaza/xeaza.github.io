@@ -54,6 +54,10 @@ $avenirNext: "Avenir Next", Avenir, sans-serif;
     font-family: AvenirNext-Italic;
     src: url("font/AvenirNext-Italic.woff");
 }
+@font-face {
+    font-family: AvenirNext-UltraLightItalic;
+    src: url("font/AvenirNext-UltraLightItalic.woff");
+}
 
 $avenirNextReg: "AvenirNext-Regular";
 $avenirNextMed: "AvenirNext-Medium";
@@ -62,6 +66,8 @@ $avenirNextBold: "AvenirNext-Bold";
 $avenirNextHeavy: "AvenirNext-Heavy";
 $avenirNextLight: "AvenirNext-UltraLight";
 $avenirNextItalic: "AvenirNext-Italic";
+$avenirNextUltraLightItalic: "AvenirNext-UltraLightItalic";
+
 	
 
 // Mobile breakpoints
