@@ -742,6 +742,9 @@ section.module.circus.parallax-2 {
 section.module.developer.parallax-1 {
   background-image: url("../images/whiteBackgroundHeader.jpg");
 }
+section.module.developer.parallax-2 {
+  background-image: url("../images/whiteBackgroundHeader.jpg");
+}
 
 #developerTopBackground {
   width: 100%;
@@ -757,6 +760,19 @@ section.module.developer.parallax-1 {
   background-size: 50%;
 }
 
+#smirkusTopBackground {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  background-image: url("../images/smirkusAppHeader.jpg");
+  background-attachment: fixed;
+  background-position-x: 50%;
+  background-position-y: -159px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
 .rightImage {
   max-width: 150px;
   max-height: 150px;
