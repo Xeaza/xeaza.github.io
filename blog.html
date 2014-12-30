@@ -15,6 +15,10 @@ permalink: /blog/
 			<div class="entry">
 			{{ post.content }}
 			</div>
+			<br>
+			<div class="date">
+	 		Written on {{ page.date | date: "%B %-d, %Y" }}
+			</div>
 		</section>
   {% endfor %}
 </div>
