@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>date</key>
+		<string>June 29</string>
+		<key>siteName</key>
+		<string>Greensboro, VT</string>
+		<key>location</key>
+		<string>The Circus Barn</string>
+		<key>numShows</key>
+		<string>2 shows</string>
+		<key>showTimes</key>
+		<string>Sunday 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>44.621143</string>
+		<key>longitude</key>
+		<string>-72.336817</string>
+		<key>address</key>
+		<string>1 Circus Road</string>
+		<key>city</key>
+		<string> Greesnboro</string>
+		<key>state</key>
+		<string> VT</string>
+		<key>zip</key>
+		<string> 05841</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 2-3</string>
+		<key>siteName</key>
+		<string>St. Johnsbury, VT</string>
+		<key>location</key>
+		<string>Leonard Field</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Wed &amp; Thu 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>44.424294</string>
+		<key>longitude</key>
+		<string>-72.007895</string>
+		<key>address</key>
+		<string>6 Almshouse Road</string>
+		<key>city</key>
+		<string> St. Johnsbury</string>
+		<key>state</key>
+		<string> VT</string>
+		<key>zip</key>
+		<string> 05819</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 5-6</string>
+		<key>siteName</key>
+		<string>Hanover, NH</string>
+		<key>location</key>
+		<string>Fullington Farm Field</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Sat 2pm &amp; 7pm, Sun 11am &amp; 4pm</string>
+		<key>latitude</key>
+		<string>43.73701</string>
+		<key>longitude</key>
+		<string>-72.250181</string>
+		<key>address</key>
+		<string>New Hampshire 10</string>
+		<key>city</key>
+		<string>Hanover</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>zip</key>
+		<string>03755</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 8-10</string>
+		<key>siteName</key>
+		<string>Essex Junction, VT</string>
+		<key>location</key>
+		<string>Champlain Valley Exposition</string>
+		<key>numShows</key>
+		<string>6 shows</string>
+		<key>showTimes</key>
+		<string>Tue-Thu 12pm &amp; 6:30pm</string>
+		<key>latitude</key>
+		<string>44.49672</string>
+		<key>longitude</key>
+		<string>-73.123605</string>
+		<key>address</key>
+		<string>105 Pearl St</string>
+		<key>city</key>
+		<string> Essex Junction</string>
+		<key>state</key>
+		<string> VT</string>
+		<key>zip</key>
+		<string> 05452</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 12-13</string>
+		<key>siteName</key>
+		<string>Saratoga Springs, NY</string>
+		<key>location</key>
+		<string>Track</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Sat &amp; Sun 1pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>43.059599</string>
+		<key>longitude</key>
+		<string>-73.768955</string>
+		<key>address</key>
+		<string>342 Jefferson Street</string>
+		<key>city</key>
+		<string>Saratoga Springs</string>
+		<key>state</key>
+		<string>NY</string>
+		<key>zip</key>
+		<string>12866</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 15-16</string>
+		<key>siteName</key>
+		<string>Swanzey, NH</string>
+		<key>location</key>
+		<string>Cheshire Fairgrounds</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Tue &amp; Wed 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>42.896512</string>
+		<key>longitude</key>
+		<string>-72.249849</string>
+		<key>address</key>
+		<string>247 Monadnock Hwy</string>
+		<key>city</key>
+		<string>Swanzey</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>zip</key>
+		<string>03446</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 18-19</string>
+		<key>siteName</key>
+		<string>Great Barrington, MA</string>
+		<key>location</key>
+		<string>Fair Ground Community Redevelopment Project</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Fri &amp; Sat 2pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>42.179983</string>
+		<key>longitude</key>
+		<string>-73.363891</string>
+		<key>address</key>
+		<string>659 Main St (Rt 7)</string>
+		<key>city</key>
+		<string>Great Barrington</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>zip</key>
+		<string>01230</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 21-23</string>
+		<key>siteName</key>
+		<string>East Sandwich, MA</string>
+		<key>location</key>
+		<string>Heritage Museums &amp; Gardens</string>
+		<key>numShows</key>
+		<string>5 shows</string>
+		<key>showTimes</key>
+		<string>Mon - Wed 2pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>41.74771</string>
+		<key>longitude</key>
+		<string>-70.505546</string>
+		<key>address</key>
+		<string>67 Grove Street</string>
+		<key>city</key>
+		<string>Sandwich</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>zip</key>
+		<string>02563</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 25-27</string>
+		<key>siteName</key>
+		<string>Waltham, MA</string>
+		<key>location</key>
+		<string>Gore Place</string>
+		<key>numShows</key>
+		<string>6 shows</string>
+		<key>showTimes</key>
+		<string>Fri &amp; Sat 2pm &amp; 7pm, Sun 11am &amp; 4pm</string>
+		<key>latitude</key>
+		<string>42.37332</string>
+		<key>longitude</key>
+		<string>-71.212199</string>
+		<key>address</key>
+		<string>52 Gore Street</string>
+		<key>city</key>
+		<string>Waltham</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>zip</key>
+		<string>02453</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 29-30</string>
+		<key>siteName</key>
+		<string>Northampton, MA</string>
+		<key>location</key>
+		<string>Three County Fairgrounds</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Tue &amp; Wed 1pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>42.179983</string>
+		<key>longitude</key>
+		<string>-73.363891</string>
+		<key>address</key>
+		<string>41 Fair Street</string>
+		<key>city</key>
+		<string>Northampton</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>zip</key>
+		<string>01060</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>Aug 1-2</string>
+		<key>siteName</key>
+		<string>Newbury, MA</string>
+		<key>location</key>
+		<string>Manter Field</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Fri 1pm &amp; 6pm, Sat 12:30pm &amp; 5:30pm</string>
+		<key>latitude</key>
+		<string>42.746984</string>
+		<key>longitude</key>
+		<string>-70.927681</string>
+		<key>address</key>
+		<string>81 Central Street</string>
+		<key>city</key>
+		<string>Newbury</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>zip</key>
+		<string>01922</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>Aug 4-5</string>
+		<key>siteName</key>
+		<string>Freeport, ME</string>
+		<key>location</key>
+		<string>Merriconeag Waldorf School</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Mon &amp; Tue 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>43.853485</string>
+		<key>longitude</key>
+		<string>-70.143178</string>
+		<key>address</key>
+		<string>57 Desert Road</string>
+		<key>city</key>
+		<string>Freeport</string>
+		<key>state</key>
+		<string>ME</string>
+		<key>zip</key>
+		<string>04032</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>Aug 7-8</string>
+		<key>siteName</key>
+		<string>Kennebunkport, ME</string>
+		<key>location</key>
+		<string>Rockin&apos; Horse Stables</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Thu &amp; Fri 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>43.404619</string>
+		<key>longitude</key>
+		<string>-70.466384</string>
+		<key>address</key>
+		<string>245 Arundel Rd</string>
+		<key>city</key>
+		<string>Kennebunkport</string>
+		<key>state</key>
+		<string>ME</string>
+		<key>zip</key>
+		<string>04046</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>Aug 10-13</string>
+		<key>siteName</key>
+		<string>Montpelier, VT</string>
+		<key>location</key>
+		<string>Montpelier High School</string>
+		<key>numShows</key>
+		<string>7 shows</string>
+		<key>showTimes</key>
+		<string>Sun 4pm, Mon - Wed 2pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>44.260599</string>
+		<key>longitude</key>
+		<string>-72.585661</string>
+		<key>address</key>
+		<string>5 High School Drive</string>
+		<key>city</key>
+		<string>Montpelier</string>
+		<key>state</key>
+		<string>VT</string>
+		<key>zip</key>
+		<string>05602</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>Aug 15-16</string>
+		<key>siteName</key>
+		<string>Greensboro, VT</string>
+		<key>location</key>
+		<string>The Circus Barn</string>
+		<key>numShows</key>
+		<string>3 shows</string>
+		<key>showTimes</key>
+		<string>Fri 6pm, Sat 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>44.621143</string>
+		<key>longitude</key>
+		<string>-72.336817</string>
+		<key>address</key>
+		<string>1 Circus Road</string>
+		<key>city</key>
+		<string>Greensboro</string>
+		<key>state</key>
+		<string>VT</string>
+		<key>zip</key>
+		<string>05841</string>
+	</dict>
+</array>
+</plist>
