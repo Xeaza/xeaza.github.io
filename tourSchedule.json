@@ -7,7 +7,7 @@
 			"longitude": -89.296875,
 			"latitude": 39.053318,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/clownalley@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/clownalley@2x.png",
 			"showOrder" : 1
 		},
 		{
@@ -17,7 +17,7 @@
 			"longitude": -89.497375,
 			"latitude": 39.149066,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/handstand@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/handstand@2x.png",
 			"showOrder" : 2
 		},
 		{
@@ -27,7 +27,7 @@
 			"longitude": -89.347687,
 			"latitude": 39.254422,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/lift@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/lift@2x.png",
 			"showOrder" : 3
 		},
 		{
@@ -37,7 +37,7 @@
 			"longitude": -89.196625,
 			"latitude": 39.361743,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/overboard@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/overboard@2x.png",
 			"showOrder" : 4
 		},
 		{
@@ -47,7 +47,7 @@
 			"longitude": -88.950806,
 			"latitude": 39.850556,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/scared@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
 			"showOrder" : 5
 		},
 		{
@@ -57,7 +57,7 @@
 			"longitude": -87.348175,
 			"latitude": 40.35266,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/sleeping@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
 			"showOrder" : 6
 		},
 		{
@@ -67,7 +67,7 @@
 			"longitude": -86.897736,
 			"latitude": 40.429015,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/sloth@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sloth@2x.png",
 			"showOrder" : 7
 		},
 		{
@@ -77,7 +77,7 @@
 			"longitude": -86.249542,
 			"latitude": 41.828482,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/smirko@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/smirko@2x.png",
 			"showOrder" : 8
 		},
 		{
@@ -87,7 +87,7 @@
 			"longitude": -84.870758,
 			"latitude": 41.435359,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/splash@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
 			"showOrder" : 9
 		},
 		{
@@ -97,7 +97,7 @@
 			"longitude": -83.645782,
 			"latitude": 41.043984,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://www.taylorwrightsanson.com/sApp/images/wirewalk@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wirewalk@2x.png",
 			"showOrder" : 10
 		}
 			
