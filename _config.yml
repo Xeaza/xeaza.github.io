@@ -18,6 +18,10 @@ favicon: images/favicon.ico
 # Flags below are optional
 #
 
+# Read Time is a calculator to provide post Estimated Reading Time (ERT) based on word count. Usage is recommended.
+readtime:   true
+wpm:      200
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
