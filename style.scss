@@ -824,8 +824,13 @@ section.module.developer.parallax-3 {
 
 .haiku {
   width: 220px;
-  margin: 0 auto;
   text-align: center;
+  position: absolute;
+  bottom: 25px;
+  right: 5px;
+}
+.haiku ul li {
+  color: white;
 }
 
 /***********************************************
