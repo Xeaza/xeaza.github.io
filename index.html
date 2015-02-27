@@ -2,6 +2,9 @@
 layout: post
 ---
 
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.11.0.min.js"></script>
+<script src="{{ site.baseurl }}/js/responsiveslides.min.js"></script>
+
 <div id="main" role="main" class="container">
   <section class="module home parallax parallax-1">
     <article id="welcome"><p>Thanks for stopping by. <br> My name is Taylor Wright-Sanson. I'm an iOS developer and a circus performer. I value form and function. I ride a <a href="https://www.youtube.com/watch?v=0jNrdXWn9eI" target="_blank"> unicycle </a> and write haikus.</p>
@@ -19,6 +22,12 @@ layout: post
           But still the ants stomp.</li>
       </ul>
     </div>
+
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+    </script>
   </section>
 
   <section class="module home content">
