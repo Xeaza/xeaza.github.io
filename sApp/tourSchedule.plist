@@ -4,11 +4,11 @@
 <array>
 	<dict>
 		<key>date</key>
-		<string>June 29</string>
+		<string>June 28</string>
 		<key>siteName</key>
 		<string>Greensboro, VT</string>
 		<key>location</key>
-		<string>The Circus Barn</string>
+		<string>Smirkus World HQ Circus Barn</string>
 		<key>numShows</key>
 		<string>2 shows</string>
 		<key>showTimes</key>
@@ -28,63 +28,15 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>July 2-3</string>
-		<key>siteName</key>
-		<string>St. Johnsbury, VT</string>
-		<key>location</key>
-		<string>Leonard Field</string>
-		<key>numShows</key>
-		<string>4 shows</string>
-		<key>showTimes</key>
-		<string>Wed &amp; Thu 1pm &amp; 6pm</string>
-		<key>latitude</key>
-		<string>44.424294</string>
-		<key>longitude</key>
-		<string>-72.007895</string>
-		<key>address</key>
-		<string>6 Almshouse Road</string>
-		<key>city</key>
-		<string> St. Johnsbury</string>
-		<key>state</key>
-		<string> VT</string>
-		<key>zip</key>
-		<string> 05819</string>
-	</dict>
-	<dict>
-		<key>date</key>
-		<string>July 5-6</string>
-		<key>siteName</key>
-		<string>Hanover, NH</string>
-		<key>location</key>
-		<string>Fullington Farm Field</string>
-		<key>numShows</key>
-		<string>4 shows</string>
-		<key>showTimes</key>
-		<string>Sat 2pm &amp; 7pm, Sun 11am &amp; 4pm</string>
-		<key>latitude</key>
-		<string>43.73701</string>
-		<key>longitude</key>
-		<string>-72.250181</string>
-		<key>address</key>
-		<string>New Hampshire 10</string>
-		<key>city</key>
-		<string>Hanover</string>
-		<key>state</key>
-		<string>NH</string>
-		<key>zip</key>
-		<string>03755</string>
-	</dict>
-	<dict>
-		<key>date</key>
-		<string>July 8-10</string>
+		<string>July 1-3</string>
 		<key>siteName</key>
 		<string>Essex Junction, VT</string>
 		<key>location</key>
-		<string>Champlain Valley Exposition</string>
+		<string>Champlain Valley Fairground</string>
 		<key>numShows</key>
 		<string>6 shows</string>
 		<key>showTimes</key>
-		<string>Tue-Thu 12pm &amp; 6:30pm</string>
+		<string>Wed - Fri 12:30pm &amp; 6:30pm</string>
 		<key>latitude</key>
 		<string>44.49672</string>
 		<key>longitude</key>
@@ -100,15 +52,15 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>July 12-13</string>
+		<string>July 5-6</string>
 		<key>siteName</key>
 		<string>Saratoga Springs, NY</string>
 		<key>location</key>
-		<string>Track</string>
+		<string>Saratoga Casino and Raceway</string>
 		<key>numShows</key>
 		<string>4 shows</string>
 		<key>showTimes</key>
-		<string>Sat &amp; Sun 1pm &amp; 7pm</string>
+		<string>Sun - Mon 1pm &amp; 7pm</string>
 		<key>latitude</key>
 		<string>43.059599</string>
 		<key>longitude</key>
@@ -124,15 +76,63 @@
 	</dict>
 	<dict>
 		<key>date</key>
+		<string>July 8-9</string>
+		<key>siteName</key>
+		<string>St. Johnsbury, VT</string>
+		<key>location</key>
+		<string>Green Mountain Mall</string>
+		<key>numShows</key>
+		<string>4 shows</string>
+		<key>showTimes</key>
+		<string>Wed &amp; Thu 1pm &amp; 6pm</string>
+		<key>latitude</key>
+		<string>41.735698</string>
+		<key>longitude</key>
+		<string>-70.45905</string>
+		<key>address</key>
+		<string>6 Almshouse Road</string>
+		<key>city</key>
+		<string> St. Johnsbury</string>
+		<key>state</key>
+		<string> VT</string>
+		<key>zip</key>
+		<string> 05819</string>
+	</dict>
+	<dict>
+		<key>date</key>
+		<string>July 11-13</string>
+		<key>siteName</key>
+		<string>Hanover, NH</string>
+		<key>location</key>
+		<string>Fullington Farm Field</string>
+		<key>numShows</key>
+		<string>6 shows</string>
+		<key>showTimes</key>
+		<string>Sat 2pm &amp; 7pm Sun 11am &amp; 4pm Mon 1pm &amp; 7pm</string>
+		<key>latitude</key>
+		<string>43.73701</string>
+		<key>longitude</key>
+		<string>-72.250181</string>
+		<key>address</key>
+		<string>New Hampshire 10</string>
+		<key>city</key>
+		<string>Hanover</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>zip</key>
+		<string>03755</string>
+	</dict>
+	<dict>
+		<key>date</key>
 		<string>July 15-16</string>
 		<key>siteName</key>
-		<string>Swanzey, NH</string>
+		<string>Keene, NH</string>
 		<key>location</key>
 		<string>Cheshire Fairgrounds</string>
 		<key>numShows</key>
 		<string>4 shows</string>
 		<key>showTimes</key>
-		<string>Tue &amp; Wed 1pm &amp; 6pm</string>
+		<string>Wed &amp; Thu 1pm &amp; 6pm</string>
 		<key>latitude</key>
 		<string>42.896512</string>
 		<key>longitude</key>
@@ -150,61 +150,61 @@
 		<key>date</key>
 		<string>July 18-19</string>
 		<key>siteName</key>
-		<string>Great Barrington, MA</string>
+		<string>South Windsor, CT</string>
 		<key>location</key>
-		<string>Fair Ground Community Redevelopment Project</string>
+		<string>South Windsor High School Practice Field</string>
 		<key>numShows</key>
 		<string>4 shows</string>
 		<key>showTimes</key>
-		<string>Fri &amp; Sat 2pm &amp; 7pm</string>
+		<string>Sat &amp; Sun 2pm &amp; 7pm</string>
 		<key>latitude</key>
-		<string>42.179983</string>
+		<string>41.735698</string>
 		<key>longitude</key>
-		<string>-73.363891</string>
+		<string>-70.45905</string>
 		<key>address</key>
-		<string>659 Main St (Rt 7)</string>
+		<string> 161 Nevers Road</string>
 		<key>city</key>
-		<string>Great Barrington</string>
+		<string>South Windsor</string>
 		<key>state</key>
-		<string>MA</string>
+		<string>CT</string>
 		<key>zip</key>
-		<string>01230</string>
+		<string>06074</string>
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>July 21-23</string>
+		<string>July 21-22</string>
 		<key>siteName</key>
-		<string>East Sandwich, MA</string>
+		<string>Sandwich, MA</string>
 		<key>location</key>
-		<string>Heritage Museums &amp; Gardens</string>
+		<string>Sandwich High School</string>
 		<key>numShows</key>
-		<string>5 shows</string>
+		<string>4 shows</string>
 		<key>showTimes</key>
-		<string>Mon - Wed 2pm &amp; 7pm</string>
+		<string>Tue &amp; Wed 2pm &amp; 7pm</string>
 		<key>latitude</key>
-		<string>41.74771</string>
+		<string>41.735698</string>
 		<key>longitude</key>
-		<string>-70.505546</string>
+		<string>-70.45905</string>
 		<key>address</key>
-		<string>67 Grove Street</string>
+		<string>365 Quaker Meeting House Rd</string>
 		<key>city</key>
-		<string>Sandwich</string>
+		<string>East Sandwich</string>
 		<key>state</key>
 		<string>MA</string>
 		<key>zip</key>
-		<string>02563</string>
+		<string>02537</string>
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>July 25-27</string>
+		<string>July 24-26</string>
 		<key>siteName</key>
 		<string>Waltham, MA</string>
 		<key>location</key>
 		<string>Gore Place</string>
 		<key>numShows</key>
-		<string>6 shows</string>
+		<string>4 shows</string>
 		<key>showTimes</key>
-		<string>Fri &amp; Sat 2pm &amp; 7pm, Sun 11am &amp; 4pm</string>
+		<string>Fri - Sun 2pm &amp; 7pm</string>
 		<key>latitude</key>
 		<string>42.37332</string>
 		<key>longitude</key>
@@ -220,7 +220,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>July 29-30</string>
+		<string>July 28-29</string>
 		<key>siteName</key>
 		<string>Northampton, MA</string>
 		<key>location</key>
@@ -244,7 +244,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>Aug 1-2</string>
+		<string>July 31 - Aug 1</string>
 		<key>siteName</key>
 		<string>Newbury, MA</string>
 		<key>location</key>
@@ -254,9 +254,9 @@
 		<key>showTimes</key>
 		<string>Fri 1pm &amp; 6pm, Sat 12:30pm &amp; 5:30pm</string>
 		<key>latitude</key>
-		<string>42.746984</string>
+		<string>41.735698</string>
 		<key>longitude</key>
-		<string>-70.927681</string>
+		<string>-70.45905</string>
 		<key>address</key>
 		<string>81 Central Street</string>
 		<key>city</key>
@@ -268,7 +268,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>Aug 4-5</string>
+		<string>Aug 3-4</string>
 		<key>siteName</key>
 		<string>Freeport, ME</string>
 		<key>location</key>
@@ -292,7 +292,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>Aug 7-8</string>
+		<string>Aug 6-7</string>
 		<key>siteName</key>
 		<string>Kennebunkport, ME</string>
 		<key>location</key>
@@ -316,7 +316,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>Aug 10-13</string>
+		<string>Aug 9-12</string>
 		<key>siteName</key>
 		<string>Montpelier, VT</string>
 		<key>location</key>
@@ -340,7 +340,7 @@
 	</dict>
 	<dict>
 		<key>date</key>
-		<string>Aug 15-16</string>
+		<string>Aug 14-15</string>
 		<key>siteName</key>
 		<string>Greensboro, VT</string>
 		<key>location</key>
@@ -348,7 +348,7 @@
 		<key>numShows</key>
 		<string>3 shows</string>
 		<key>showTimes</key>
-		<string>Fri 6pm, Sat 1pm &amp; 6pm</string>
+		<string>Fri 7pm, Sat 1pm &amp; 6pm</string>
 		<key>latitude</key>
 		<string>44.621143</string>
 		<key>longitude</key>
