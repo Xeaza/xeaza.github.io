@@ -22,7 +22,7 @@
 		},
 		{
 			"townAndState": "Saratoga Springs, NY",
-			"showDates": ["2015-01-05", "2015-07-06"],
+			"showDates": ["2015-07-05", "2015-07-06"],
 			"showTimes": ["Sunday 1pm & 7pm", "Monday 1pm & 7pm"],
 			"longitude": -73.768955,
 			"latitude": 43.059599,
@@ -152,7 +152,7 @@
 		}	
 	],
 	"year" : "2015",
-	"version" : "1"
+	"version" : "0.1"
 }
 
 
