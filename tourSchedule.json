@@ -43,7 +43,7 @@
 		{
 			"townAndState": "Hanover, NH",
 			"showDates": ["2015-07-11", "2015-07-12", "2015-07-13"],
-			"showTimes": ["Saturday 2pm & 7pm", "Sunday 11pm & 4pm", "Monday 1pm & 7pm"],
+			"showTimes": ["Saturday 2:30pm & 7:30pm", "Sunday 11pm & 4pm", "Monday 1pm & 7pm"],
 			"longitude": -72.250181,
 			"latitude": 43.73701,
 			"address": "New Hampshire 10 Hanover NH 03755",
@@ -152,7 +152,7 @@
 		}
 	],
 	"year" : "2015",
-	"version" : "0.4"
+	"version" : "0.5"
 }
 
 
