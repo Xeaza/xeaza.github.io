@@ -63,7 +63,7 @@
 		{
 			"townAndState": "South Windsor, CT",
 			"showDates": ["2015-07-18", "2015-07-19"],
-			"showTimes": ["Saturday 2pm & 7pm", "Sunday 2pm & 7pm"],
+			"showTimes": ["Saturday 2pm & 7pm", "Sunday 1pm & 6pm"],
 			"longitude": -72.554439,
 			"latitude": 41.842183,
 			"address": "161 Nevers Road South Windsor CT 06074",
@@ -152,7 +152,7 @@
 		}
 	],
 	"year" : "2015",
-	"version" : "0.5"
+	"version" : "0.6"
 }
 
 
