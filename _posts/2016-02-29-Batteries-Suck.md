@@ -21,7 +21,6 @@ I put the wired dowel into the trackpad. I put the power end in first to match t
 Tada! It fits! Don’t be fooled. It took three tries to cut the dowel the correct size… Then I realized I forgot to cut a hole in the cap so I could complete the circuit for the ground wire. Take the dowel out and unwrap the wires.
 
 Next step. Cut a hole in the cap. I used my hand held drill with limited success. Fortunately, I have access to a drill press. Worked like a charm.
-
 <img src="/images/blog/cap.jpg" alt="Trackpad battery cap" style="width: 200px;"/>
 
 Feed the wires through the hole in the cap, re-wrap the wires around the screws. Put it back in the track pad power end first. 
