@@ -2,9 +2,9 @@
 layout: post
 title: Batteries Suck!
 ---
-![alt text](/images/blog/finished.jpg "Wired trackpad")
-
 I use a magic trackpad. The old one, with batteries you have to replace. Not the new one, you can plug in and recharge. I have to replace my batteries, or recharge them every month and half or so (I’m an iOS developer, I use my trackpad a lot…). Replacing my batteries so often and seeing that ‘Trackpad batteries are low’ alert got annoying. 
+
+![alt text](/images/blog/finished.jpg "Wired trackpad")
 
 The new magic trackpad would solve all my problems, but it’s $129 and I don’t want to spend $129 on a trackpad. After some quick puzzling and a look around the internets, I realized it would be pretty straight forward to make my trackpad wired. 
 
