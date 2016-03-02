@@ -114,9 +114,9 @@
 			"townAndState": "Milford, NH",
 			"showDates": ["2016-07-30", "2016-07-31"],
 			"showTimes": ["Saturday 2pm & 7pm", "Sunday 11pm & 4pm"],
-			"longitude": -0.0,
-			"latitude": 0.0,
-			"address": "",
+			"longitude": -71.638949,
+			"latitude": 42.815848,
+			"address": "34 Emerson Road, Milford, NH 03055",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
 			"showOrder" : 12
 		},
