@@ -7,7 +7,7 @@
 			"longitude": -72.336817,
 			"latitude": 44.621143,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/clownalley@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
 			"showOrder" : 1
 		},
 		{
@@ -127,7 +127,7 @@
 			"longitude": -70.143178,
 			"latitude": 43.853485,
 			"address": "57 Desert Road Freeport ME 04032",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/book@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/pie@2x.png",
 			"showOrder" : 13
 		},
 		{
@@ -147,7 +147,7 @@
 			"longitude": -72.585661,
 			"latitude": 44.260599,
 			"address": "5 High School Drive Montpelier VT 05602",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/emma@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/ouch@2x.png",
 			"showOrder" : 15
 		},
 		{
@@ -157,12 +157,12 @@
 			"longitude": -72.336817,
 			"latitude": 44.621143,
 			"address": "1 Circus rd Greensboro VT 05841",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/colin@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/soup@2x.png",
 			"showOrder" : 16
 		}
 	],
 	"year" : "2016",
-	"version" : "0.9"
+	"version" : "0.8"
 }
 
 
