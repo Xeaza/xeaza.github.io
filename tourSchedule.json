@@ -51,7 +51,7 @@
 			"showOrder" : 5
 		},
 		{
-			"townAndState": "Swanzey, NH",
+			"townAndState": "Keene, NH",
 			"showDates": ["2016-07-11", "2016-07-12"],
 			"showTimes": ["Monday 1pm & 6pm", "Tuesday 1pm & 6pm"],
 			"longitude": -72.249849,
@@ -62,8 +62,8 @@
 		},
 		{
 			"townAndState": "Northampton, MA",
-			"showDates": ["2016-07-14", "2016-07-15"],
-			"showTimes": ["Thursday 1pm & 7pm", "Friday 1pm & 7pm"],
+			"showDates": ["2016-07-14", "2016-07-15", "2016-07-16"],
+			"showTimes": ["Thursday 7pm", "Friday 1pm & 7pm", "Saturday 1pm & 7pm"],
 			"longitude": -73.363891,
 			"latitude": 42.179983,
 			"address": "41 Fair Street Northampton MA 01060",
@@ -71,34 +71,24 @@
 			"showOrder" : 7
 		},
 		{
-			"townAndState": "TBD, MA",
-			"showDates": ["2016-07-17", "2016-07-18"],
-			"showTimes": ["Sunday TBD", "Monday TBD"],
-			"longitude": -72.336817,
-			"latitude": 44.621143,
-			"address": "TBD",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
+			"townAndState": "Sandwich, MA",
+			"showDates": ["2016-07-18", "2016-07-19", "2016-07-20"],
+			"showTimes": ["Monday 7pm" "Tuesday 2pm & 7pm", "Wednesday 2pm & 7pm"],
+			"longitude": -70.45905,
+			"latitude": 41.735698,
+			"address": "365 Quaker Meeting House Rd East Sandwich MA 02537",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/smirko@2x.png",
 			"showOrder" : 8
 		},
 		{
-			"townAndState": "Sandwich, MA",
-			"showDates": ["2016-07-20", "2016-07-21"],
-			"showTimes": ["Wednesday 2pm & 7pm", "Thursday 2pm & 7pm"],
-			"longitude": -70.45905,
-			"latitude": 41.735698,
-			"address": "TBD",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/smirko@2x.png",
-			"showOrder" : 9
-		},
-		{
 			"townAndState": "Waltham, MA",
-			"showDates": ["2016-07-23", "2016-07-24", "2016-07-25"],
-			"showTimes": ["Saturday 2pm & 7pm", "Sunday 11pm & 4pm", "Monday TBD"],
+			"showDates": ["2016-07-22", "2016-07-23", "2016-07-24", "2016-07-25"],
+			"showTimes": ["Friday 1pm & 7pm", "Saturday 2pm & 7pm", "Sunday 11pm & 4pm", "Monday 12pm"],
 			"longitude": -71.212199,
 			"latitude": 42.37332,
 			"address": "52 Gore Street Waltham MA 02453",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
-			"showOrder" : 10
+			"showOrder" : 9
 		},
 		{
 			"townAndState": "Kennebunkport, ME",
@@ -108,7 +98,7 @@
 			"latitude": 43.404619,
 			"address": "245 Arundel Rd Kennebunkport ME 04046",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/eric@2x.png",
-			"showOrder" : 11
+			"showOrder" : 10
 		},
 		{
 			"townAndState": "Milford, NH",
@@ -118,7 +108,7 @@
 			"latitude": 42.815848,
 			"address": "34 Emerson Road, Milford, NH 03055",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
-			"showOrder" : 12
+			"showOrder" : 11
 		},
 		{
 			"townAndState": "Freeport, ME",
@@ -127,8 +117,8 @@
 			"longitude": -70.143178,
 			"latitude": 43.853485,
 			"address": "57 Desert Road Freeport ME 04032",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/pie@2x.png",
-			"showOrder" : 13
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
+			"showOrder" : 12
 		},
 		{
 			"townAndState": "Newbury, MA",
@@ -138,7 +128,7 @@
 			"latitude": 41.735698,
 			"address": "81 Central Street Newbury MA 01922",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
-			"showOrder" : 14
+			"showOrder" : 13
 		},
 		{
 			"townAndState": "Montpelier, VT",
@@ -148,7 +138,7 @@
 			"latitude": 44.260599,
 			"address": "5 High School Drive Montpelier VT 05602",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/ouch@2x.png",
-			"showOrder" : 15
+			"showOrder" : 14
 		},
 		{
 			"townAndState": "Greensboro, VT",
@@ -158,11 +148,11 @@
 			"latitude": 44.621143,
 			"address": "1 Circus rd Greensboro VT 05841",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/soup@2x.png",
-			"showOrder" : 16
+			"showOrder" : 15
 		}
 	],
 	"year" : "2016",
-	"version" : "0.9"
+	"version" : "1.0"
 }
 
 
