@@ -73,7 +73,7 @@
 		{
 			"townAndState": "Sandwich, MA",
 			"showDates": ["2016-07-18", "2016-07-19", "2016-07-20"],
-			"showTimes": ["Monday 7pm" "Tuesday 2pm & 7pm", "Wednesday 2pm & 7pm"],
+			"showTimes": ["Monday 7pm", "Tuesday 2pm & 7pm", "Wednesday 2pm & 7pm"],
 			"longitude": -70.45905,
 			"latitude": 41.735698,
 			"address": "365 Quaker Meeting House Rd East Sandwich MA 02537",
@@ -152,7 +152,7 @@
 		}
 	],
 	"year" : "2016",
-	"version" : "0.10"
+	"version" : "1.0"
 }
 
 
