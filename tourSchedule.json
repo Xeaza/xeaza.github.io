@@ -107,7 +107,7 @@
 			"longitude": -71.638949,
 			"latitude": 42.815848,
 			"address": "34 Emerson Road, Milford, NH 03055",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sloth@2x.png",
 			"showOrder" : 11
 		},
 		{
@@ -124,8 +124,8 @@
 			"townAndState": "Newbury, MA",
 			"showDates": ["2016-08-05", "2016-08-06"],
 			"showTimes": ["Friday 1pm & 6pm", "Saturday 12:30pm & 5:30pm"],
-			"longitude": -70.45905,
-			"latitude": 41.735698,
+			"longitude": -70.927686,
+			"latitude": 42.746985,
 			"address": "81 Central Street Newbury MA 01922",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
 			"showOrder" : 13
@@ -152,7 +152,7 @@
 		}
 	],
 	"year" : "2016",
-	"version" : "1.1"
+	"version" : "1.2"
 }
 
 
