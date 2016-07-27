@@ -64,8 +64,8 @@
 			"townAndState": "Northampton, MA",
 			"showDates": ["2016-07-14", "2016-07-15", "2016-07-16"],
 			"showTimes": ["Thursday 6pm", "Friday 1pm & 7pm", "Saturday 1pm & 7pm"],
-			"longitude": -73.363891,
-			"latitude": 42.179983,
+			"longitude": -72.620916,
+			"latitude": 42.324694,
 			"address": "41 Fair Street Northampton MA 01060",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wirewalk@2x.png",
 			"showOrder" : 7
@@ -152,7 +152,7 @@
 		}
 	],
 	"year" : "2016",
-	"version" : "1.3"
+	"version" : "1.4"
 }
 
 
