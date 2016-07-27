@@ -1,0 +1,160 @@
+{
+	"tourSchedule": [
+		{
+			"townAndState": "Greensboro, VT",
+			"showDates": ["2016-06-25"],
+			"showTimes": ["Saturday 1pm & 6pm"],
+			"longitude": -72.336817,
+			"latitude": 44.621143,
+			"address": "1 Circus rd Greensboro VT 05841",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
+			"showOrder" : 1
+		},
+		{
+			"townAndState": "Essex Junction, VT",
+			"showDates": ["2016-06-28", "2016-06-29", "2016-06-30"],
+			"showTimes": ["Tuesday 12pm & 6:30pm", "Wednesday 12pm & 6:30pm", "Thursday 12pm & 6:30pm"],
+			"longitude": -73.123605,
+			"latitude": 44.49672,
+			"address": "105 Pearl St Essex Junction VT 05452",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/handstand@2x.png",
+			"showOrder" : 2
+		},
+		{
+			"townAndState": "St. Johnsbury, VT",
+			"showDates": ["2016-07-02", "2016-07-03"],
+			"showTimes": ["Saturday 1pm & 6pm", "Sunday 12pm & 5pm"],
+			"longitude": -72.009666,
+			"latitude": 44.423807,
+			"address": "6 Almshouse Road St. Johnsbury VT 05819",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/overboard@2x.png",
+			"showOrder" : 3
+		},
+		{
+			"townAndState": "Hanover, NH",
+			"showDates": ["2016-07-05", "2016-07-06"],
+			"showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm"],
+			"longitude": -72.250181,
+			"latitude": 43.73701,
+			"address": "New Hampshire 10 Hanover NH 03755",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
+			"showOrder" : 4
+		},
+		{
+			"townAndState": "Saratoga Springs, NY",
+			"showDates": ["2016-07-08", "2016-07-09"],
+			"showTimes": ["Friday 1pm & 6pm", "Saturday 1pm & 6pm"],
+			"longitude": -73.768955,
+			"latitude": 43.059599,
+			"address": "342 Jefferson Street Saratoga Springs NY 12866",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/lift@2x.png",
+			"showOrder" : 5
+		},
+		{
+			"townAndState": "Keene, NH",
+			"showDates": ["2016-07-11", "2016-07-12"],
+			"showTimes": ["Monday 1pm & 6pm", "Tuesday 1pm & 6pm"],
+			"longitude": -72.249849,
+			"latitude": 42.896512,
+			"address": "247 Monadnock Hwy Swanzey NH 03446",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
+			"showOrder" : 6
+		},
+		{
+			"townAndState": "Northampton, MA",
+			"showDates": ["2016-07-14", "2016-07-15", "2016-07-16"],
+			"showTimes": ["Thursday 6pm", "Friday 1pm & 7pm", "Saturday 1pm & 7pm"],
+			"longitude": -73.363891,
+			"latitude": 42.179983,
+			"address": "41 Fair Street Northampton MA 01060",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wirewalk@2x.png",
+			"showOrder" : 7
+		},
+		{
+			"townAndState": "Sandwich, MA",
+			"showDates": ["2016-07-18", "2016-07-19", "2016-07-20"],
+			"showTimes": ["Monday 7pm", "Tuesday 2pm & 7pm", "Wednesday 2pm & 7pm"],
+			"longitude": -70.45905,
+			"latitude": 41.735698,
+			"address": "365 Quaker Meeting House Rd East Sandwich MA 02537",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/smirko@2x.png",
+			"showOrder" : 8
+		},
+		{
+			"townAndState": "Waltham, MA",
+			"showDates": ["2016-07-22", "2016-07-23", "2016-07-24", "2016-07-25"],
+			"showTimes": ["Friday 1pm & 7pm", "Saturday 2pm & 7pm", "Sunday 11pm & 4pm", "Monday 12pm"],
+			"longitude": -71.212199,
+			"latitude": 42.37332,
+			"address": "52 Gore Street Waltham MA 02453",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
+			"showOrder" : 9
+		},
+		{
+			"townAndState": "Kennebunkport, ME",
+			"showDates": ["2016-07-27", "2016-07-28"],
+			"showTimes": ["Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
+			"longitude": -70.466384,
+			"latitude": 43.404619,
+			"address": "245 Arundel Rd Kennebunkport ME 04046",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/eric@2x.png",
+			"showOrder" : 10
+		},
+		{
+			"townAndState": "Milford, NH",
+			"showDates": ["2016-07-30", "2016-07-31"],
+			"showTimes": ["Saturday 2pm & 7pm", "Sunday 11pm & 4pm"],
+			"longitude": -71.638949,
+			"latitude": 42.815848,
+			"address": "34 Emerson Road, Milford, NH 03055",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sloth@2x.png",
+			"showOrder" : 11
+		},
+		{
+			"townAndState": "Freeport, ME",
+			"showDates": ["2016-08-02", "2016-08-03"],
+			"showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm"],
+			"longitude": -70.143178,
+			"latitude": 43.853485,
+			"address": "57 Desert Road Freeport ME 04032",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
+			"showOrder" : 12
+		},
+		{
+			"townAndState": "Newbury, MA",
+			"showDates": ["2016-08-05", "2016-08-06"],
+			"showTimes": ["Friday 1pm & 6pm", "Saturday 12:30pm & 5:30pm"],
+			"longitude": -70.852034,
+			"latitude": 42.795057,
+			"address": "5 Littles Ln, Newbury, MA 01951",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
+			"showOrder" : 13
+		},
+		{
+			"townAndState": "Montpelier, VT",
+			"showDates": ["2016-08-08", "2016-08-09", "2016-08-10"],
+			"showTimes": ["Monday 2pm & 7pm", "Tuesday 2pm & 7pm", "Wednesday 2pm & 7pm"],
+			"longitude": -72.585661,
+			"latitude": 44.260599,
+			"address": "5 High School Drive Montpelier VT 05602",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/ouch@2x.png",
+			"showOrder" : 14
+		},
+		{
+			"townAndState": "Greensboro, VT",
+			"showDates": ["2016-08-12", "2016-08-13"],
+			"showTimes": ["Friday 7pm", "Saturday 1pm & 6pm"],
+			"longitude": -72.336817,
+			"latitude": 44.621143,
+			"address": "1 Circus rd Greensboro VT 05841",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/soup@2x.png",
+			"showOrder" : 15
+		}
+	],
+	"year" : "2016",
+	"trainingDate" : 2016-06-04T00:00:00.000Z,
+	"auditionDate" : 2016-06-04T00:00:00.000Z
+	"version" : "1.4"
+}
+
+
