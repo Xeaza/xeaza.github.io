@@ -151,6 +151,8 @@
 			"showOrder" : 15
 		}
 	],
+	"trainingDate" : "2016-06-04T00:00:00.000Z",
+	"auditionDate" : "2016-06-04T00:00:00.000Z",
 	"year" : "2016",
 	"version" : "1.4"
 }
