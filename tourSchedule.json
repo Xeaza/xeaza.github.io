@@ -17,7 +17,7 @@
 			"longitude": -72.81144,
 			"latitude": 44.202084,
 			"address": "3337 Main St., Route 100 Waitsfield, VT 05673",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/gazette@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/painting@2x.png",
 			"showOrder" : 2
 		},
 		{
@@ -47,7 +47,7 @@
 			"longitude": -73.053121,
 			"latitude": 43.183924,
 			"address": "340 Rec Park Road, Manchester, VT",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/painting@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/soup@2x.png",
 			"showOrder" : 5
 		},
 		{
@@ -87,7 +87,7 @@
 			"longitude": -72.81144,
 			"latitude": 44.202084,
 			"address": "140 Main St, Marshfield, MA 02050",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/flying@2x.png",
+			"imageUrl": "http://taylorwrightsanson.com/sApp/images/emma@2x.png",
 			"showOrder" : 9
 		},
 		{
@@ -174,5 +174,5 @@
 	"trainingDate" : "2018-06-08T00:00:00.000Z",
 	"auditionDate" : "2019-06-04T00:00:00.000Z",
 	"year" : "2018",
-	"version" : "1.7"
+	"version" : "1.8"
 }
