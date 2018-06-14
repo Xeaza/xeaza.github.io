@@ -2,7 +2,7 @@
 	"tourSchedule": [
 		{
 			"townAndState": "Greensboro, VT",
-			"showDates": ["2018-07-29"],
+			"showDates": ["2018-06-29"],
 			"showTimes": ["Friday 1pm & 6pm"],
 			"longitude": -72.336817,
 			"latitude": 44.621143,
@@ -174,5 +174,5 @@
 	"trainingDate" : "2018-06-08T00:00:00.000Z",
 	"auditionDate" : "2019-06-04T00:00:00.000Z",
 	"year" : "2018",
-	"version" : "1.8"
+	"version" : "1.9"
 }
