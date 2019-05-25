@@ -8,6 +8,7 @@
 			"latitude": 44.621143,
 			"address": "1 Circus rd Greensboro, VT 05841",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=e9a90255-a868-4c6d-ad5d-382eb82753f8",
 			"showOrder" : 1
 		},
 		{
@@ -18,6 +19,7 @@
 			"latitude": 44.460869,
 			"address": "2000 Memorial Dr #14, St Johnsbury, VT 05819",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/triple_lyra@2x.jpg",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=1577d2cc-4629-4cfb-b888-e97377b3523d",
 			"showOrder" : 2
 		},
 		{
@@ -28,6 +30,7 @@
 			"latitude": 44.49672,
 			"address": "105 Pearl St Essex Junction, VT 05452",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/handstand@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=d37d159a-9fdc-4201-9c04-13038c896915",
 			"showOrder" : 3
 		},
 		{
@@ -38,6 +41,7 @@
 			"latitude": 42.327861,
 			"address": "113 Old Ferry Rd, Northampton, MA 01060",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/muscle@2x.jpg",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=1ef8bb6f-ff87-47d5-b1b0-68ec4bc2c1e7",
 			"showOrder" : 4
 		},
 		{
@@ -48,6 +52,7 @@
 			"latitude": 43.183924,
 			"address": "340 Rec Park Road, Manchester, VT",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/clubs@2x.jpg",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=0dc746dd-eaf7-4cb4-b5c1-b5b8f76400f8",
 			"showOrder" : 5
 		},
 		{
@@ -58,6 +63,7 @@
 			"latitude": 42.896512,
 			"address": "247 Monadnock Hwy Swanzey, NH 03446",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=27978dda-d0e3-4246-aea8-ae312fefc381",
 			"showOrder" : 6
 		},
 		{
@@ -68,6 +74,7 @@
 			"latitude": 43.73701,
 			"address": "New Hampshire 10 Hanover, NH 03755",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=ea298bdf-cce3-462c-8e92-a5eb2818897d",
 			"showOrder" : 7
 		},
 		{
@@ -78,6 +85,7 @@
 			"latitude": 44.202084,
 			"address": "140 Main St, Marshfield, MA 02050",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/emma@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=a63134dc-a53e-4246-b3e5-51382ca37015",
 			"showOrder" : 8
 		},
 		{
@@ -88,6 +96,7 @@
 			"latitude": 42.37332,
 			"address": "52 Gore Street Waltham, MA 02453",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=a370a4d2-51ac-46b1-b1e1-9439640953cd",
 			"showOrder" : 9
 		},
 		{
@@ -98,6 +107,7 @@
 			"latitude": "41.876790",
 			"address": "22 Iron Horse Blvd, Simsbury, CT 06070",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/lift@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=6d95ad4e-763c-43b2-8612-85e0819565b1",
 			"showOrder" : 10
 		},
 		{
@@ -108,6 +118,7 @@
 			"latitude": 42.795057,
 			"address": "5 Littles Ln, Newbury, MA 01951",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=2a9a5b8b-510b-4ff8-ab6d-0cf985bedd8f",
 			"showOrder" : 11
 		},
 		{
@@ -118,6 +129,7 @@
 			"latitude": 43.853485,
 			"address": "57 Desert Road Freeport, ME 04032",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=86d07c68-a7f2-4d3c-8a3e-f9b941faf523",
 			"showOrder" : 12
 		},
 		{
@@ -128,6 +140,7 @@
 			"latitude": 43.404619,
 			"address": "245 Arundel Rd Kennebunkport, ME 04046",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/hats@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=87de4d27-8785-4107-8990-ae0642ffa0a0",
 			"showOrder" : 13
 		},
 		{
@@ -138,6 +151,7 @@
 			"latitude": 43.607918,
 			"address": "10 Trotting Track Road Wolfeboro, NH 03894",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/unicycle@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=afeccfd0-5f68-4ada-b4d3-adaeecfc07d5",
 			"showOrder" : 14
 		},
 		{
@@ -148,6 +162,7 @@
 			"latitude": 44.260599,
 			"address": "5 High School Drive Montpelier, VT 05602",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/soup@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=921f21d9-9445-4e16-b2c9-a4641e2c1ab5",
 			"showOrder" : 15
 		},
 		{
@@ -158,11 +173,12 @@
 			"latitude": 44.621143,
 			"address": "1 Circus rd Greensboro, VT 05841",
 			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
+			"ticketUrl": "https://91563.blackbaudhosting.com/91563/sslpage.aspx?pid=213&tab=3&txobjid=61aaf4db-a559-4d7d-88ef-04a7d19afac9",
 			"showOrder" : 16
 		}
 	],
 	"trainingDate" : "2019-06-08T00:00:00.000Z",
 	"auditionDate" : "2020-01-18T00:00:00.000Z",
 	"year" : "2019",
-	"version" : "2019.1"
+	"version" : "2019.2"
 }
