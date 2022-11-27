@@ -1,0 +1,274 @@
+/** Temp to hide resume button **/
+.hideit
+	display: none
+
+/************************* Introduction *************************/
+
+.introduction
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: left
+	background:
+		image: url("../img/introduction-bg.jpg")
+		position: top
+		size: cover
+		repeat: no-repeat
+	width: 100%
+	height: 100vh
+
+	&__text 
+		width: 48%
+		margin-left: 4vw
+		margin-bottom: 25vh
+
+		& p
+			background-color: rgba(20, 20, 20, 0.9)
+			padding: 18px 15px 18px 15px
+			text-shadow: 0px 2px 1px #000
+			color: $turquoiseColor
+			width: 100%
+			font-size: 24px
+			font-weight: 700
+			line-height: 1.3em
+
+		& a
+			color: $turquoiseColor
+
+			&:hover
+				color: $lightGreen
+				text-shadow: 1px 0px 1px #000000
+
+	&__arrow
+		position: absolute
+		bottom: 10%
+		left: 50%
+		transform: translate(-12px, 0px)
+		width: 24px
+		fill: $c-highlight
+		animation: scrollDown 1.6s infinite
+
+	@media (max-width: 991px)
+		&__text 
+			width: 100%
+			margin-left: 4vw
+			margin-right: 4vw
+			margin-bottom: 25vh
+
+
+	@media (max-height: 540px)
+		
+		&__arrow
+			animation: none
+
+/************************* App Design *************************/
+
+.app-icon
+	float: left
+
+	&__img
+		height: 76px
+		width: 75px
+		border-radius: 14px
+		margin: 0px 10px 0px 0px 
+
+.app-store-icon
+	height: 40px
+	width: 100%
+	margin: auto
+
+.apps
+	position: relative
+	width: 100%
+	padding: 10px 0
+	overflow: hidden
+
+	&__wrapper
+		height: 100%
+
+	&__visual
+		display: flex
+		justify-content: center
+
+		img
+			max-height: 900px
+			max-width: 100%
+
+	&__phone-right
+		background-color: $white
+
+	&__phone-left
+		background-color: $turquoiseColor
+
+.apps-row
+	display: flex
+	flex-flow: row
+	justify-content: center
+	align-items: center
+
+	&__col 
+		flex-flow: column
+		align-items: center
+		display: flex
+		padding-top: 50px
+
+	&__phone-left
+		display: flex
+		flex-flow: row-reverse
+		justify-content: center
+		align-items: center
+
+		@media (max-width: 991px)
+			flex-flow: row wrap
+
+	@media (max-width: 991px)
+		flex-flow: row wrap
+
+.apps-col
+	flex: 0 0 auto		
+
+	&__text
+		width: 50%
+		margin: 0px 10px
+
+	&__rowText
+		width: 75%
+		margin: 0px 10px
+
+	&__phone
+		width: auto
+		margin: 0px 10px
+
+	@media (max-width: 991px)
+
+		&__text
+			width: 100%
+
+		&__rowText
+			width: 100%
+
+.phone-img
+	display: flex
+	background:
+		image: url("/assets/img/apps/ivy/app.gif")
+		position: center
+		size: 85%
+		repeat: no-repeat
+
+/************************* Circus *************************/
+
+.circus
+	position: relative
+	width: 100%
+	height: 100%
+	background-color: $black
+	margin: 0 auto
+	overflow: hidden
+
+	& .flex-direction
+		flex-direction: row
+
+	&__photos
+		position: relitive
+
+.gallery-row
+	display: flex
+	flex-wrap: wrap
+	padding: 0 4px
+
+/* Create four equal columns that sits next to each other */
+.gallery-column
+	flex: 33.333%
+	max-width: 33.333%
+	padding: 0 4px
+
+	img
+		margin-top: 8px
+		vertical-align: middle
+		width: 100%
+
+/* Responsive layout - makes a two column-layout instead of four columns TODO: make 50% */
+@media screen and (max-width: 800px)
+	.gallery-column
+		flex: 33.333% 
+		max-width: 33.333%
+	
+/************************* Art *************************/
+
+.art
+	--art-opacity: 1
+	position: relative
+	width: 100%
+	padding-top: 50px
+	background-color: $white
+	
+	&__carousel_col
+		max-width: 48%
+		display: inline-flex
+		flex-flow: column wrap
+		padding-bottom: 50px
+
+	&__carousel_row
+		display: flex
+		flex-flow: row wrap
+		
+	@media (max-width: 991px)
+
+		&__carousel_col
+			max-width: 100%
+			display: inline-flex
+			flex-flow: column wrap
+
+		&__heading
+			font-size: 48px
+
+	@media (max-width: 767px)
+		
+		&__heading
+			font-size: 32px
+
+/************************* Footer *************************/
+
+.footer
+	position: relative
+	width: 100%
+	height: 100px
+	
+	&__wrapper
+		display: flex
+		align-items: center
+		justify-content: space-between
+		
+	&__logo
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		
+	&__arrow
+		display: flex
+		width: 50px
+		height: 50px
+		align-items: center
+		justify-content: center
+		
+		&-el
+			width: 24px
+			fill: $c-highlight
+			
+	@media (max-width: 767px)
+		
+		height: 150px
+		padding: 30px 0
+		
+		&__wrapper
+			flex-direction: column
+			
+		&__copyright
+			order: 3
+			
+		&__logo
+			position: static
+			transform: translate(0, 0)
+			order: 2
+			

@@ -1,107 +1,387 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <!-- <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'> -->
-    <!-- This needs to be there so that the site works on retina mobile devices -->
-    <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+<html lang="en">
+<head>
+  <title>Taylor Sanson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="My name is Taylor Sanson. I'm an iOS developer and a circus performer. I ride a unicycle and write haikus.">
+  <meta name="keywords" content="Taylor Sanson iOS Software Engineer Mobile Circus Unicycle">
+  <meta name="author" content="Taylor Sanson">
+  <meta property="og:site_name" content="taylorwrightsanson.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="http://taylorwrightsanson.com">
+  <meta property="og:title" content="Taylor Sanson - iOS Developer ">
+  <meta property="og:image" content="assets/img/headshot.jpg">
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:site" content="@taylorwrightsanson">
+  <meta name="twitter:creator" content="@taylorwrightsanson">
+  <meta name="twitter:url" content="http://taylorwrightsanson.com">
+  <meta name="twitter:title" content="Taylor Sanson - iOS Developer - Circus Performer">
+  <meta name="twitter:image" content="assets/img/headshot.jpg">
+  <meta name="twitter:image:width" content="300">
+  <meta name="twitter:image:height" content="300">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- Import main.css after bootstart to override any bootstrap styles -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7QS3ENKYDH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  gtag('config', 'G-7QS3ENKYDH');
+</script>
+<body>
 
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="description" content="{{ site.description }}">
-    <meta name="thumbnail" content="{{ site.baseurl }}/images/headshot.jpg">
-
-    <meta name="keywords" content="{{ site.keywords }}" />
-    <meta property="og:site_name" content="taylorwrightsanson.com">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="http://taylorwrightsanson.com">
-    <meta property="og:title" content="Taylor Wright-Sanson - iOS Developer & Designer - Circus Performer">
-    <meta property="og:image" content="{{ site.baseurl }}/images/headshot.jpg">
-    <meta name="twitter:card" content="photo">
-    <meta name="twitter:site" content="@taylorwrightsanson">
-    <meta name="twitter:creator" content="@taylorwrightsanson">
-    <meta name="twitter:url" content="http://taylorwrightsanson.com">
-    <meta name="twitter:title" content="Taylor Wright-Sanson - iOS Developer & Designer - Circus Performer">
-    <meta name="twitter:image" content="{{ site.baseurl }}/images/headshot.jpg">
-    <meta name="twitter:image:width" content="300">
-    <meta name="twitter:image:height" content="300">
-
-
-    <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">
-    <link rel="icon" href="{{ site.favicon }}" type="image/x-icon">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-1.11.0.min.js"></script>
-    <script src="{{ site.baseurl }}/js/scripts.js"></script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-  </head>
-
-  <body>
-    <!-- This is from the original site
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div> -->
-
-    <nav>
-      <!-- This line menu is hidden until the screen is small enough -->
-      <div id="lineMenu"><a href="#">☰</a></div>
-      <div id="logo"><a href="{{ site.baseurl }}/">
-        <!-- Each letter is a different weight, hence the elements created for styling them -->
-        <ta>TA</ta><y>Y</y><l>L</l><o>O</o><r>R</r> wrig<em>h</em>t-sanson</a>
-      </div>
-      <ul id="hidingMenu">
-        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
-        <li><a href="{{ site.baseurl }}/developer+designer">developer & des<em>i</em>gne<em>r</em></a></li>
-        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
-        <li><a href="{{ site.baseurl }}/circus+performer">circus p<em>e</em>rformer</a></li>
-        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
-        <li><a href="{{ site.baseurl }}/artist">artist</a></li>
-        <img src="{{ site.baseurl }}/images/star.svg" class="starIcons">
-        <li><a href="{{ site.baseurl }}/blog">you na<em>me</em> it</a></li>
-      </ul>
-    </nav>
-
-    {{ content }}
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-
-          <script type='text/javascript'>
-            $(document).ready(function() {
-              $(".time").text(function (index, value) {
-              return Math.round(parseFloat(value));
-              });
-            });
-          </script>
-          
-        </footer>
+  <!-- SECTION: Splashscreen -->
+  <!-- <div class="splashscreen">
+    <div class="preloader">
+      <span class="preloader__text">Loading</span>
+    </div>
+  </div> -->
+  <!-- END SECTION: Splashscreen -->
+  <!-- SECTION: Navigation -->
+  <div id="top" class="navigation">
+    <div class="navigation__wrapper wrapper--large">
+      <a class="navigation__logo logo" href="#header"><startLetter>T</startLetter>aylor <startLetter>S</startLetter>anson</a>
+      <nav class="navigation__container">
+        <ul class="navigation__list">
+          <li><a href="#apps">Apps</a></li>
+          <img src="assets/img/star.svg" class="starIcons">
+          <li><a href="#circus">Circus</a></li>
+          <img src="assets/img/star.svg" class="starIcons">
+          <li><a href="#art">Art</a></li>
+          <img src="assets/img/star.svg" class="starIcons">
+          <li><a href="https://www.linkedin.com/in/taylorsanson" target="_blank" rel="noopener noreferrer">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="navigation__cta button hideit" href="#0">Resume</a>
+      <div class="navigation__burger">
+        <span class="navigation__burger-el navigation__burger-el--top"></span>
+        <span class="navigation__burger-el navigation__burger-el--middle"></span>
+        <span class="navigation__burger-el navigation__burger-el--bottom"></span>
       </div>
     </div>
+  </div>
+  <!-- END SECTION: Navigation -->
+  <!-- SECTION: Intro -->
+  <header id="header" class="header">
+    <div class="introduction">
+      <div class="introduction__text">
+        <p>Thanks for stopping by. <br> My name is Taylor Sanson. I'm an <a href="#apps">iOS developer</a> and a <a href="#circus">circus performer.</a> I ride a <a href="https://www.youtube.com/watch?v=0jNrdXWn9eI" target="_blank" rel="noopener noreferrer"> unicycle </a> and write haikus.</p>
+      </div>
 
-    {% include analytics.html %}
-  </body>
+      <svg class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"/></g></svg>
+    </div>
+  </header>
+  <!-- END SECTION: Intro -->
+  <main role="main">
+    <!-- SECTION: Apps -->
+    <section id="apps" class="apps">
+      <div class="apps__wrapper phone-right wrapper--large">
+        <!----- IVY ----->
+        <div class="container">
+          <div class="apps-row"> 
+            <div class="apps__description apps-col__text">
+              <h2>Poison Ivy</h2>
+              <div class="app-icon">
+                <a href="https://apps.apple.com/us/app/poison-ivy/id1467123400" target="_blank" rel="noopener noreferrer">
+                  <img class="app-icon__img shadow-sm" src="assets/img/apps/ivy/app-icon.png" alt="Poison Ivy App icon">
+                </a>
+              </div>
+              <p>Not Hotdog, but for poison ivy. I created Ivy as a way to learn more about Apple's <a href="https://developer.apple.com/documentation/coreml" target="_blank" rel="noopener noreferrer">CoreML</a> and <a href="https://developer.apple.com/documentation/vision" target="_blank" rel="noopener noreferrer">Vison</a> frameworks as well as to begin to dabble in SwiftUI. Ivy uses <a href="https://en.wikipedia.org/wiki/Contextual_image_classification" target="_blank" rel="noopener noreferrer">image classification</a> to detect poison ivy plants. The model for Ivy was trained initially with images I took myself. I added a way for users to optionally and anonymously upload the images they take using Ivy which I categorize and use to continuously improve Ivy's model.</p>
+
+              <p>Improvements I have planned are to create an <a href="https://www.mathworks.com/discovery/object-detection.html" target="_blank" rel="noopener noreferrer">object detection</a> model for Ivy. This will enable Ivy to indicate to users _where_ exactly it thinks there is poison ivy in the image, rather than today where Ivy just gives a prediction on whether or not the image given "is poison ivy" or not. Which means, if the poison ivy plant isn't clear or in focus, Ivy may identify a zoomed out picture or a picture with multiple types of plants as "not poison ivy" when there in fact, may be poison ivy in the picture.</p>
+              <div>
+                <a href="https://apps.apple.com/us/app/poison-ivy/id1467123400" target="_blank" rel="noopener noreferrer">
+                  <img class="app-store-icon" src="assets/img/apps/app-store-icon.svg" alt="Download Poison Ivy App">
+                </a>
+              </div>
+            </div>
+            <div class="apps-col__phone">
+              <div class="apps__visual">
+                <div class="phone-img">
+                  <img class="phone-outline" src="/assets/img/apps/iphone14.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      <!----- SMIRKUS APP ----->
+        <div class="container">
+          <div class="apps-row__phone-left"> 
+            <div class="apps__description apps-col__text">
+              <h2>Smirkus</h2>
+              <div class="app-icon">
+                <a href="https://apps.apple.com/us/app/circus-smirkus/id647630553" target="_blank" rel="noopener noreferrer">
+                  <img class="app-icon__img shadow-sm" src="assets/img/apps/smirkus/app-icon.png" alt="Smirkus App icon">
+                </a>
+              </div>
+              <p>The Smirkus app began as my Capstone project at Wheaton College. My goal was to learn iOS development and support <a href="https://www.smirkus.org" target="_blank" rel="noopener noreferrer">Circus Smirkus</a>. Since its first release in 2013 the Smirkus app has gone through multiple refactors and redesigns. Users are able to view the current summer’s tour schedule, buy tickets, get directions, add a show to their calendar, read about Smirkus’ history, view the Smirkus blog (optimized for mobile on device), learn about Smirkus camp and view show posters from years past. Originally all Objective-C, the Smirkus app is now a mix of ObjC and Swift.</p>
+              <div>
+                <a href="https://apps.apple.com/us/app/circus-smirkus/id647630553" target="_blank" rel="noopener noreferrer">
+                  <img class="app-store-icon" src="assets/img/apps/app-store-icon.svg" alt="Download The Smirkus app">
+                </a>
+              </div>
+            </div>
+            <div class="apps-col__phone">
+              <div class="apps__visual">
+                <img src="/assets/img/apps/smirkus/schedule.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      <!----- ASCII PASTE ----->
+      <div class="container">
+        <div class="apps-row"> 
+          <div class="apps__description apps-col__text">
+            <h2>ASCII PASTE</h2>
+            <div class="app-icon">
+              <a href="https://apps.apple.com/us/app/ascii-paste/id1509032619" target="_blank" rel="noopener noreferrer">
+                <img class="app-icon__img shadow-sm" src="assets/img/apps/ascii/app-icon.png" alt="ASCII Paste App icon">
+              </a>
+            </div>
+            <p>Some time ago, you could include a comment with a Venmo payment. That comment could be very long. If that comment was all emoji it could end up long enough to freeze and eventually crash the Venmo app. I built this app so I could easily copy/paste huge amounts of emoji to fill my Venmo history. Venmo has since capped the character count to <300. The possibilities for sending way too many emoji are endless-1.</p>
+            <div>
+              <a href="https://apps.apple.com/us/app/ascii-paste/id1509032619" target="_blank" rel="noopener noreferrer">
+                  <img class="app-store-icon" src="assets/img/apps/app-store-icon.svg" alt="Download ASCII Paste">
+                </a>
+            </div>
+          </div>
+          <div class="apps-col__phone">
+            <div class="apps__visual">
+              <img src="/assets/img/apps/ascii/app.jpg">
+            </div>
+          </div>
+        </div>
+      </div>  
+      <!----- ALIEN DIGEST ----->
+      <div class="container">
+        <div class="apps-row__col"> 
+          <div class="apps__description apps-col__rowText">
+            <h2>Alien Digest</h2>
+            <div class="app-icon">
+              <img class="app-icon__img shadow-sm" src="assets/img/apps/alien/app-icon.png" alt="Alien Digest App icon">
+            </div>
+            <p>Alien Digest is a fun way to get your fix of reddit. A clean interface delivers daily digests of top content from your top subreddits at 8am and 6pm. You can refresh content at any time. The app also gets to know you and will suggest subreddits to check out based on your interests or location. Up vote, down vote, read comments, and stay engaged with the Reddit community on the go.</p>
+
+            <p>Alien Digest was created by myself, Richmond Watkins and Christopher Ruggles as our capstone project at the Mobile Makers Academy in Chicago, Il.</p>
+
+            <p>In just three weeks, we crammed as much as we possibly could into our app. I don't mean we filled the app with features for features sake. Don't get me wrong, our app has features, plenty of them. We streamlined our design to create a sleek, clean viewing experience all while including features that we feel will enhance your Alien Digest experience.</p>
+
+            <p>Some of the coolest stuff is all happening behind the scenes. Twice a day you get your digest. Everyday, 10 minutes before 8am and 6pm (in any timezone) our server silently alerts Alien Digest to wake up in the background and go out to reddit to request the latest top posts from the subreddits you've subscribed to. Once our app gets those posts it saves them in Core Data. Then, on the hour of 8am or 6pm respectively, we send a push notification alerting our users that their digest is ready. You open the app and bam, there are all your new posts ready to do with zero load time. How about that for handy?</p>
+
+            <p>We've added some clever ways to up/down vote on posts if you like them or not. You can even share posts. Check out the comments for each post we digest those two. The interaction with comments is all custom for our app.</p>
+          </div>
+          <div class="apps-col__phone">
+            <div class="apps__visual">
+              <img src="/assets/img/apps/alien/app.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----- POCKET MEMOS ----->
+      <div class="container">
+        <div class="apps-row__col"> 
+          <div class="apps__description apps-col__rowText">
+            <h2>Pocket Memos</h2>
+            <div class="app-icon">
+              <img class="app-icon__img shadow-sm" src="assets/img/apps/memos/app-icon.png" alt="Pocket Memos icon">
+            </div>
+            <p>I created Pocket Memos with ease of use in mind. I was tired of all the other recording apps out there that complicate the true purpose of their apps, with poorly designed layouts and unnecessary choices.</p>
+
+            <p>From the moment you open Pocket Memos it is clear how to use it and what it does. If you're interested in more than the basic options, they are available but they won't ever get in your way.</p>
+
+            <p>I created this app as a way to learn how to use Core Audio for iOS as well has how to connect to services such as Dropbox. With Pocket Memos you can create recordings, upload them to dropbox and email them to your friends.</p>
+          </div>
+          <div class="apps-col__phone">
+            <div class="apps__visual">
+              <img src="/assets/img/apps/memos/app.png">
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!-- END SECTION: Apps -->
+    <!-- SECTION: Circus -->
+    <section id="circus" class="circus">
+      <div class="circus__wrapper wrapper--large">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/0jNrdXWn9eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-0" class="video-player" data-video-id="0jNrdXWn9eI"></div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/UxUDOmyJPM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-1" class="video-player" data-video-id="UxUDOmyJPM4"></div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/9lNbQslDWbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-2" class="video-player" data-video-id="9lNbQslDWbo"></div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/GWcB14y71WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-3" class="video-player" data-video-id="GWcB14y71WY"></div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/qgzODhDrViA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-4" class="video-player" data-video-id="qgzODhDrViA"></div> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-video-inner">
+                <iframe class="videoContainer__video" src="https://www.youtube.com/embed/F5JVFQM8xuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <div id="video-player-5" class="video-player" data-video-id="F5JVFQM8xuE"></div> -->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="circus__photos">
+          <!-- Gallery -->
+          <div class="gallery-row"> 
+            <div class="gallery-column">
+              <img class="rounded" src="assets/img/circus/5stack.png">
+              <img class="rounded" src="assets/img/circus/rolaBackflip.png">
+            </div>
+            <div class="gallery-column">
+              <img class="rounded" src="assets/img/circus/bar.jpg">
+              <img class="rounded" src="assets/img/circus/jumpRope.png">
+            </div> 
+            <div class="gallery-column">
+              <img class="rounded" src="assets/img/circus/twoHigh.png">
+              <img class="rounded" src="assets/img/circus/rolaHoops.png">
+            </div>
+          </div>
+          <!-- Gallery -->
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION: Circus -->
+    <!-- SECTION: Art -->
+    <section id="art" class="art">
+      <div class="art__wrapper wrapper--large">
+        <!-- Jewelry Carousel -->
+        <div class="art__carousel_col">
+          <h2 class="art__heading title">Jewelry</h2>
+          <div id="carouselJewelry" class="carousel carousel-dark slide art__carousel_row" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselJewelry" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselJewelry" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselJewelry" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/art/jewelry/ring1.jpg" alt="Flower Ring">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/jewelry/ring2.png" alt="Coin Ring">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/jewelry/ring3.png" alt="Coin Ring Flat">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselJewelry" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselJewelry" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- Stained Glass Carousel -->
+        <div class="art__carousel_col">
+          <h2 class="art__heading title">Stained Glass</h2>
+          <div id="carouselGlass" class="carousel carousel-dark slide art__carousel_row" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselGlass" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/art/glass/glass1.png" alt="Stained Glass Fish Pond">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/glass/glass2.png" alt="Stained Glass Clock">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/glass/glass3.png" alt="Stained Glass Dragon">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/glass/glass4.png" alt="Stained Heart">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/glass/glass5.png" alt="Stained Star">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/art/glass/glass6.png" alt="Stained Window">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGlass" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGlass" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION: Art -->
+  </main>
+  <!-- SECTION: Footer -->
+  <footer class="footer">
+    <hr>
+    <div class="footer__wrapper wrapper--large">
+      <p class="footer__copyright no-margin">&copy; 2022 Taylor Sanson</p>
+      <a class="footer__logo logo" href="#header"><startLetter>T</startLetter>aylor <startLetter>S</startLetter>anson</a>
+      <a class="footer__arrow" href="#top">
+        <svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"/></g></svg>
+      </a>
+    </div>
+  </footer>
+  <!-- END SECTION: Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/functions-min.js"></script>
+</body>
 </html>
