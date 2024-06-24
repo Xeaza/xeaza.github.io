@@ -1,161 +1,257 @@
 {
-	"tourSchedule": [
-		{
-			"townAndState": "Greensboro, VT",
-			"showDates": ["2024-06-29"],
-			"showTimes": ["Saturday 1pm & 6pm"],
-			"longitude": -72.336817,
-			"latitude": 44.621143,
-			"address": "1 Circus rd Greensboro, VT 05841",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=276f5ea0-d244-4a50-a023-b538b5a03cac&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 1
-		},
-		{
-			"townAndState": "Waterbury, VT",
-			"showDates": ["2024-07-02", "2024-07-03", "2024-07-04"],
-			"showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
-			"longitude": -72.796030,
-			"latitude": 44.356450,
-			"address": "1901 U.S. Rte 2 W, Waterbury Village Historic District, VT 05676",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/triple_lyra@2x.jpg",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=d459482d-633c-45d3-b097-a9f84fe178ee&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 2
-		},
-		{
-			"townAndState": "Hanover, NH",
-			"showDates": ["2024-07-06", "2024-07-07"],
-			"showTimes": ["Saturday 1pm & 6pm", "Sunday 11am & 4pm"],
-			"longitude": -72.250181,
-			"latitude": 43.73701,
-			"address": "New Hampshire 10 Hanover, NH 03755",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=76a6946e-76bb-4360-9b8a-f389706a96d4&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 3
-		},
-		{
-			"townAndState": "Milton, VT",
-			"showDates": ["2024-07-09", "2024-07-10", "2024-07-11"],
-			"showTimes": ["Tuesday 7pm", "Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
-			"longitude": -73.1248144,
-			"latitude": 44.6189887,
-			"address": "20 Park Pl, Milton, VT 05468",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/clubs@2x.jpg",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=17b13d04-eef1-4862-8846-157cc86f9c23&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 4
-		},
-		{
-			"townAndState": "Swanzey, NH",
-			"showDates": ["2024-07-13", "2024-07-14"],
-			"showTimes": ["Saturday 1pm & 6pm", "Sunday 11am & 4pm"],
-			"longitude": -72.296030, // TODO: double chedk
-			"latitude": 44.956450,
-			"address": "Cheshire Fairgrounds, Swanzey, NH",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/muscle@2x.jpg",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=7a8ec9aa-2574-458b-bf34-8cad95a87263&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 5
-		},
-		{
-			"townAndState": "Harwich, MA",
-			"showDates": ["2024-07-17", "2024-07-18"],
-			"showTimes": ["Wednesday 1pm & 6pm", "Thursday 1pm & 6pm"],
-			"longitude": -70.070573,
-			"latitude": 41.692248,
-			"address": "100 Oak St, Harwich, MA 02645",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/emma@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=51df0f3c-8da3-4a3b-ba4c-384054449e57&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 6
-		},
-		{
-			"townAndState": "Greenfield, MA",
-			"showDates": ["2024-07-20", "2024-07-21", "2024-07-22"],
-			"showTimes": ["Saturday 6pm", "Sunday 11am & 5pm", "Monday 1pm & 6pm"],
-			"longitude": -72.610261,
-			"latitude": 42.580308,
-			"address": "89 Wisdom Way, Greenfield, MA 01301",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=86648bf5-1945-4d7b-bf04-b0c56998c21c&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 7
-		},
-		{
-			"townAndState": "Waltham, MA",
-			"showDates": ["2024-07-25", "2024-07-26", "2024-07-27", "2024-07-28"],
-			"showTimes": ["Thursday 7pm", "Friday 11am & 7pm", "Saturday 1pm & 7pm", "Sunday 11am & 4pm"],
-			"longitude": -71.212199,
-			"latitude": 42.37332,
-			"address": "52 Gore Street Waltham, MA 02453",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=c31cd3df-c929-4244-ab15-1b3e9128d25f&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 8
-		},
-		{
-			"townAndState": "Simsbury, CT",
-			"showDates": ["2024-07-30", "2024-07-31"],
-			"showTimes": ["Tuesday 2pm & 7pm", "Wednesday 1pm & 6pm"],
-			"longitude": -72.798150,
-			"latitude": 41.876790,
-			"address": "22 Iron Horse Blvd, Simsbury, CT 06070",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/lift@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=f32763e2-0e3f-4805-af79-b1ea6d1a76e9&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder" : 9
-		},
-		{
-			"townAndState": "Newbury, MA",
-			"showDates": ["2024-08-02", "2024-08-03"],
-			"showTimes": ["Friday 2pm & 7pm", "Saturday 1pm & 6pm"],
-			"longitude": -70.852034,
-			"latitude": 42.795057,
-			"address": "5 Littles Ln, Newbury, MA 01951",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=0e071e65-1723-44df-88f9-7a57824a08c1&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder": 10
-		},
-		{
-			"townAndState": "Cumberland, ME",
-			"showDates": ["2024-08-05", "2024-08-06"],
-			"showTimes": ["Monday 1pm & 6pm", "Tuesday 1pm & 6pm"],
-			"longitude": -70.286532,
-			"latitude": 43.809694,
-			"address": "166 Bruce Hill Rd, Cumberland, ME 04021",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
-			"ticketUrl": "https://porttix.com/whats-on/circus-smirkus/",
-			"showOrder": 11
-		},
-		{
-			"townAndState": "Kennebunkport, ME",
-			"showDates": ["2024-08-08", "2024-08-09"],
-			"showTimes": ["Thursday 1pm & 6pm", "Friday 1pm & 6pm"],
-			"longitude": -70.466384,
-			"latitude": 43.404619,
-			"address": "245 Arundel Rd Kennebunkport, ME 04046",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/hats@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=1d40c0c0-b902-45a2-a077-2281aed5b36c&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder": 12
-		},
-		{
-			"townAndState": "Fryeburg, ME",
-			"showDates": ["2024-08-11", "2024-08-12", "2024-08-13"],
-			"showTimes": ["Sunday 11am & 4pm", "Monday 1pm & 6pm", "Tuesday 1pm"],
-			"longitude": -70.97104748738604,
-			"latitude": 44.03052555793,
-			"address": "Fryeburg Fairgrounds, Fryeburg, ME 04037",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/unicycle@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=c8a9a32d-e047-44f3-854c-b75a069b45d7&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder": 13
-		},
-		{
-			"townAndState": "Greensboro, VT",
-			"showDates": ["2024-08-15", "2024-08-16", "2024-08-17"],
-			"showTimes": ["Thursday 6pm", "Friday 6pm", "Saturday 1pm & 6pm"],
-			"longitude": -72.336817,
-			"latitude": 44.621143,
-			"address": "1 Circus rd Greensboro, VT 05841",
-			"imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
-			"ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=434dbef5-7f6f-4951-b5a3-245d6fd7d91c&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
-			"showOrder": 14
-		}
-	],
-	"trainingDate": "2024-06-09T00:00:00.000Z",
-	"auditionDate": "2025-01-18T00:00:00.000Z",
-	"version": "2024.1"
+    "tourSchedule": [
+        {
+            "townAndState": "Greensboro, VT",
+            "showDates": [
+                "2024-06-29"
+            ],
+            "showTimes": [
+                "Saturday 1pm & 6pm"
+            ],
+            "longitude": -72.336817,
+            "latitude": 44.621143,
+            "address": "1 Circus rd Greensboro, VT 05841",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=276f5ea0-d244-4a50-a023-b538b5a03cac&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 1
+        },
+        {
+            "townAndState": "Waterbury, VT",
+            "showDates": [
+                "2024-07-02",
+                "2024-07-03",
+                "2024-07-04"
+            ],
+            "showTimes": [
+                "Tuesday 1pm & 6pm",
+                "Wednesday 1pm & 6pm",
+                "Thursday 1pm & 6pm"
+            ],
+            "longitude": -72.79603,
+            "latitude": 44.35645,
+            "address": "1901 U.S. Rte 2 W, Waterbury Village Historic District, VT 05676",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/triple_lyra@2x.jpg",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=d459482d-633c-45d3-b097-a9f84fe178ee&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 2
+        },
+        {
+            "townAndState": "Hanover, NH",
+            "showDates": [
+                "2024-07-06",
+                "2024-07-07"
+            ],
+            "showTimes": [
+                "Saturday 1pm & 6pm",
+                "Sunday 11am & 4pm"
+            ],
+            "longitude": -72.250181,
+            "latitude": 43.73701,
+            "address": "New Hampshire 10 Hanover, NH 03755",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=76a6946e-76bb-4360-9b8a-f389706a96d4&_gl=1*f3exuy*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 3
+        },
+        {
+            "townAndState": "Milton, VT",
+            "showDates": [
+                "2024-07-09",
+                "2024-07-10",
+                "2024-07-11"
+            ],
+            "showTimes": [
+                "Tuesday 7pm",
+                "Wednesday 1pm & 6pm",
+                "Thursday 1pm & 6pm"
+            ],
+            "longitude": -73.1248144,
+            "latitude": 44.6189887,
+            "address": "20 Park Pl, Milton, VT 05468",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/clubs@2x.jpg",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=17b13d04-eef1-4862-8846-157cc86f9c23&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 4
+        },
+        {
+            "townAndState": "Swanzey, NH",
+            "showDates": [
+                "2024-07-13",
+                "2024-07-14"
+            ],
+            "showTimes": [
+                "Saturday 1pm & 6pm",
+                "Sunday 11am & 4pm"
+            ],
+            "longitude": -72.29603,
+            "latitude": 44.95645,
+            "address": "Cheshire Fairgrounds, Swanzey, NH",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/muscle@2x.jpg",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=7a8ec9aa-2574-458b-bf34-8cad95a87263&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 5
+        },
+        {
+            "townAndState": "Harwich, MA",
+            "showDates": [
+                "2024-07-17",
+                "2024-07-18"
+            ],
+            "showTimes": [
+                "Wednesday 1pm & 6pm",
+                "Thursday 1pm & 6pm"
+            ],
+            "longitude": -70.070573,
+            "latitude": 41.692248,
+            "address": "100 Oak St, Harwich, MA 02645",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/emma@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=51df0f3c-8da3-4a3b-ba4c-384054449e57&_gl=1*mupq9c*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 6
+        },
+        {
+            "townAndState": "Greenfield, MA",
+            "showDates": [
+                "2024-07-20",
+                "2024-07-21",
+                "2024-07-22"
+            ],
+            "showTimes": [
+                "Saturday 6pm",
+                "Sunday 11am & 5pm",
+                "Monday 1pm & 6pm"
+            ],
+            "longitude": -72.610261,
+            "latitude": 42.580308,
+            "address": "89 Wisdom Way, Greenfield, MA 01301",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/scared@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=86648bf5-1945-4d7b-bf04-b0c56998c21c&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 7
+        },
+        {
+            "townAndState": "Waltham, MA",
+            "showDates": [
+                "2024-07-25",
+                "2024-07-26",
+                "2024-07-27",
+                "2024-07-28"
+            ],
+            "showTimes": [
+                "Thursday 7pm",
+                "Friday 11am & 7pm",
+                "Saturday 1pm & 7pm",
+                "Sunday 11am & 4pm"
+            ],
+            "longitude": -71.212199,
+            "latitude": 42.37332,
+            "address": "52 Gore Street Waltham, MA 02453",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/splash@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=c31cd3df-c929-4244-ab15-1b3e9128d25f&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 8
+        },
+        {
+            "townAndState": "Simsbury, CT",
+            "showDates": [
+                "2024-07-30",
+                "2024-07-31"
+            ],
+            "showTimes": [
+                "Tuesday 2pm & 7pm",
+                "Wednesday 1pm & 6pm"
+            ],
+            "longitude": -72.79815,
+            "latitude": 41.87679,
+            "address": "22 Iron Horse Blvd, Simsbury, CT 06070",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/lift@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=f32763e2-0e3f-4805-af79-b1ea6d1a76e9&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 9
+        },
+        {
+            "townAndState": "Newbury, MA",
+            "showDates": [
+                "2024-08-02",
+                "2024-08-03"
+            ],
+            "showTimes": [
+                "Friday 2pm & 7pm",
+                "Saturday 1pm & 6pm"
+            ],
+            "longitude": -70.852034,
+            "latitude": 42.795057,
+            "address": "5 Littles Ln, Newbury, MA 01951",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/wink@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=0e071e65-1723-44df-88f9-7a57824a08c1&_gl=1*1yhwuou*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 10
+        },
+        {
+            "townAndState": "Cumberland, ME",
+            "showDates": [
+                "2024-08-05",
+                "2024-08-06"
+            ],
+            "showTimes": [
+                "Monday 1pm & 6pm",
+                "Tuesday 1pm & 6pm"
+            ],
+            "longitude": -70.286532,
+            "latitude": 43.809694,
+            "address": "166 Bruce Hill Rd, Cumberland, ME 04021",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/fish@2x.png",
+            "ticketUrl": "https://porttix.com/whats-on/circus-smirkus/",
+            "showOrder": 11
+        },
+        {
+            "townAndState": "Kennebunkport, ME",
+            "showDates": [
+                "2024-08-08",
+                "2024-08-09"
+            ],
+            "showTimes": [
+                "Thursday 1pm & 6pm",
+                "Friday 1pm & 6pm"
+            ],
+            "longitude": -70.466384,
+            "latitude": 43.404619,
+            "address": "245 Arundel Rd Kennebunkport, ME 04046",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/hats@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=1d40c0c0-b902-45a2-a077-2281aed5b36c&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 12
+        },
+        {
+            "townAndState": "Fryeburg, ME",
+            "showDates": [
+                "2024-08-11",
+                "2024-08-12",
+                "2024-08-13"
+            ],
+            "showTimes": [
+                "Sunday 11am & 4pm",
+                "Monday 1pm & 6pm",
+                "Tuesday 1pm"
+            ],
+            "longitude": -70.97104748738604,
+            "latitude": 44.03052555793,
+            "address": "Fryeburg Fairgrounds, Fryeburg, ME 04037",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/unicycle@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=c8a9a32d-e047-44f3-854c-b75a069b45d7&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 13
+        },
+        {
+            "townAndState": "Greensboro, VT",
+            "showDates": [
+                "2024-08-15",
+                "2024-08-16",
+                "2024-08-17"
+            ],
+            "showTimes": [
+                "Thursday 6pm",
+                "Friday 6pm",
+                "Saturday 1pm & 6pm"
+            ],
+            "longitude": -72.336817,
+            "latitude": 44.621143,
+            "address": "1 Circus rd Greensboro, VT 05841",
+            "imageUrl": "http://taylorwrightsanson.com/sApp/images/mudshow@2x.png",
+            "ticketUrl": "https://91563.blackbaudhosting.com/91563/tickets?tab=3&txobjid=434dbef5-7f6f-4951-b5a3-245d6fd7d91c&_gl=1*16rvtl0*_ga*MTM5NTUyMTA1MS4xNzE4NzM1MjQ3*_ga_9DWWXR6939*MTcxODczNTI0Ny4xLjAuMTcxODczNTI0Ny42MC4wLjA.",
+            "showOrder": 14
+        }
+    ],
+    "trainingDate": "2024-06-09T00:00:00.000Z",
+    "auditionDate": "2025-01-18T00:00:00.000Z",
+    "version": "2024.2"
 }
