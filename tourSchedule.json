@@ -18,7 +18,7 @@
       "longitude": -72.79603,
       "latitude": 44.35645,
       "address": "1901 US-2 W, Waterbury Village Historic District, VT 05676",
-      "imageUrl": "http://taylorwrightsanson.com/sApp/images/painting@2x.jpg",
+      "imageUrl": "http://taylorwrightsanson.com/sApp/images/painting@2x.png",
       "ticketUrl": "https://www.smirkus.org/tourschedule/",
       "showOrder": 2
     },
@@ -29,7 +29,7 @@
       "longitude": -73.16184,
       "latitude": 44.01073,
       "address": "201 Mary Hogan Dr, Middlebury, VT 05753",
-      "imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.jpg",
+      "imageUrl": "http://taylorwrightsanson.com/sApp/images/sleeping@2x.png",
       "ticketUrl": "https://www.smirkus.org/tourschedule/",
       "showOrder": 3
     },
@@ -179,5 +179,5 @@
   ],
   "trainingDate": "2025-06-07T00:00:00.000Z",
   "auditionDate": "2025-01-18T00:00:00.000Z",
-  "version": "2025.1"
+  "version": "2025.2"
 }
