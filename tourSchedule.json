@@ -3,7 +3,7 @@
     {
       "townAndState": "Greensboro, VT",
       "showDates": ["2025-06-28", "2025-06-29"],
-      "showTimes": ["Saturday 6 pm", "Sunday 11 am & 4 pm"],
+      "showTimes": ["Saturday 6pm", "Sunday 11am & 4pm"],
       "longitude": -72.336817,
       "latitude": 44.621143,
       "address": "1 Circus Rd, Greensboro, VT 05841",
@@ -14,7 +14,7 @@
     {
       "townAndState": "Waterbury, VT",
       "showDates": ["2025-07-02", "2025-07-03"],
-      "showTimes": ["Wednesday 12 pm & 6 pm", "Thursday 12 pm & 6 pm"],
+      "showTimes": ["Wednesday 12pm & 6pm", "Thursday 12pm & 6pm"],
       "longitude": -72.79603,
       "latitude": 44.35645,
       "address": "1901 US-2 W, Waterbury Village Historic District, VT 05676",
@@ -25,7 +25,7 @@
     {
       "townAndState": "Middlebury, VT",
       "showDates": ["2025-07-05", "2025-07-06"],
-      "showTimes": ["Saturday 1 pm & 6 pm", "Sunday 11 am & 4 pm"],
+      "showTimes": ["Saturday 1pm & 6pm", "Sunday 11am & 4pm"],
       "longitude": -73.16184,
       "latitude": 44.01073,
       "address": "201 Mary Hogan Dr, Middlebury, VT 05753",
@@ -36,7 +36,7 @@
     {
       "townAndState": "Manchester, VT",
       "showDates": ["2025-07-08", "2025-07-09"],
-      "showTimes": ["Tuesday 1 pm & 6 pm", "Wednesday 1 pm & 6 pm"],
+      "showTimes": ["Tuesday 1pm & 6pm", "Wednesday 1pm & 6pm"],
       "longitude": -73.05705,
       "latitude": 43.18397,
       "address": "Dana L. Thompson Memorial Park, 320 Rec Park Rd, Manchester, VT 05255",
@@ -47,7 +47,7 @@
     {
       "townAndState": "Spencer, MA",
       "showDates": ["2025-07-11", "2025-07-12", "2025-07-13"],
-      "showTimes": ["Friday 12 pm & 6 pm", "Saturday 12 pm & 6 pm", "Sunday 11 am & 4 pm"],
+      "showTimes": ["Friday 12pm & 6pm", "Saturday 12pm & 6pm", "Sunday 11am & 4pm"],
       "longitude": -72.01020,
       "latitude": 42.25097,
       "address": "48 Smithville Rd, Spencer, MA 01562",
@@ -58,7 +58,7 @@
     {
       "townAndState": "Harwich, MA",
       "showDates": ["2025-07-15", "2025-07-16"],
-      "showTimes": ["Tuesday 12 pm & 6 pm", "Wednesday 12 pm & 6 pm"],
+      "showTimes": ["Tuesday 12pm & 6pm", "Wednesday 12pm & 6pm"],
       "longitude": -70.070573,
       "latitude": 41.692248,
       "address": "75 Oak St, Harwich, MA 02645",
@@ -69,7 +69,7 @@
     {
       "townAndState": "Greenfield, MA",
       "showDates": ["2025-07-19", "2025-07-20"],
-      "showTimes": ["Saturday 12 pm & 6 pm", "Sunday 11 am & 4 pm"],
+      "showTimes": ["Saturday 12pm & 6pm", "Sunday 11am & 4pm"],
       "longitude": -72.61289,
       "latitude": 42.58050,
       "address": "89 Wisdom Way, Greenfield, MA 01301",
@@ -80,7 +80,7 @@
     {
       "townAndState": "Wrentham, MA",
       "showDates": ["2025-07-22", "2025-07-23"],
-      "showTimes": ["Tuesday 12 pm & 7 pm", "Wednesday 12 pm & 7 pm"],
+      "showTimes": ["Tuesday 12pm & 7pm", "Wednesday 12pm & 7pm"],
       "longitude": -71.3216402,
       "latitude": 42.0774079,
       "address": "131 Emerald St, Wrentham, MA 02093",
@@ -91,7 +91,7 @@
     {
       "townAndState": "Waltham, MA",
       "showDates": ["2025-07-25", "2025-07-26", "2025-07-27"],
-      "showTimes": ["Friday 11 am & 7 pm", "Saturday 1 pm & 7 pm", "Sunday 11 am & 4 pm"],
+      "showTimes": ["Friday 11am & 7pm", "Saturday 1pm & 7pm", "Sunday 11am & 4pm"],
       "longitude": -71.212199,
       "latitude": 42.37332,
       "address": "52 Gore St, Waltham, MA 02453",
@@ -102,7 +102,7 @@
     {
       "townAndState": "Marshfield, MA",
       "showDates": ["2025-07-29", "2025-07-30"],
-      "showTimes": ["Tuesday 11 am & 7 pm", "Wednesday 11 am & 7 pm"],
+      "showTimes": ["Tuesday 11am & 7pm", "Wednesday 11am & 7pm"],
       "longitude": -70.71794,
       "latitude": 42.09907,
       "address": "140 Main St, Marshfield, MA 02050",
@@ -113,7 +113,7 @@
     {
       "townAndState": "Newbury, MA",
       "showDates": ["2025-08-01", "2025-08-02"],
-      "showTimes": ["Friday 2 pm & 7 pm", "Saturday 1 pm & 6 pm"],
+      "showTimes": ["Friday 2pm & 7pm", "Saturday 1pm & 6pm"],
       "longitude": -70.852034,
       "latitude": 42.795057,
       "address": "5 Little’s Ln, Newbury, MA 01951",
@@ -124,7 +124,7 @@
     {
       "townAndState": "Kennebunkport, ME",
       "showDates": ["2025-08-05", "2025-08-06"],
-      "showTimes": ["Tuesday 12 pm & 6 pm", "Wednesday 12 pm & 6 pm"],
+      "showTimes": ["Tuesday 12pm & 6pm", "Wednesday 12pm & 6pm"],
       "longitude": -70.466384,
       "latitude": 43.404619,
       "address": "245 Arundel Rd, Kennebunkport, ME 04046",
@@ -135,7 +135,7 @@
     {
       "townAndState": "Cumberland, ME",
       "showDates": ["2025-08-08", "2025-08-09"],
-      "showTimes": ["Friday 1 pm & 6 pm", "Saturday 1 pm & 6 pm"],
+      "showTimes": ["Friday 1pm & 6pm", "Saturday 1pm & 6pm"],
       "longitude": -70.286532,
       "latitude": 43.809694,
       "address": "197 Blanchard Rd, Cumberland, ME 04021",
@@ -146,7 +146,7 @@
     {
       "townAndState": "Hanover, NH",
       "showDates": ["2025-08-11", "2025-08-12"],
-      "showTimes": ["Monday 1 pm & 6 pm", "Tuesday 1 pm & 6 pm"],
+      "showTimes": ["Monday 1pm & 6pm", "Tuesday 1pm & 6pm"],
       "longitude": -72.250181,
       "latitude": 43.73701,
       "address": "Fullington Farm Field, NH-10 near 104 Lyme Rd, Hanover, NH 03755",
@@ -157,7 +157,7 @@
     {
       "townAndState": "Milton, VT",
       "showDates": ["2025-08-14", "2025-08-15"],
-      "showTimes": ["Thursday 12 pm & 6 pm", "Friday 12 pm & 6 pm"],
+      "showTimes": ["Thursday 12pm & 6pm", "Friday 12pm & 6pm"],
       "longitude": -73.1248144,
       "latitude": 44.6189887,
       "address": "Bombardier Park West, 20 Park Pl, Milton, VT 05468",
@@ -168,7 +168,7 @@
     {
       "townAndState": "Greensboro, VT",
       "showDates": ["2025-08-17"],
-      "showTimes": ["Sunday 11 am & 4 pm"],
+      "showTimes": ["Sunday 11am & 4pm"],
       "longitude": -72.336817,
       "latitude": 44.621143,
       "address": "1 Circus Rd, Greensboro, VT 05841",
@@ -179,5 +179,5 @@
   ],
   "trainingDate": "2025-06-07T00:00:00.000Z",
   "auditionDate": "2025-01-18T00:00:00.000Z",
-  "version": "2025.2"
+  "version": "2025.3"
 }
