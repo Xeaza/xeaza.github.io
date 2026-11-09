@@ -1,0 +1,41 @@
+DOUBLE LATCH — NEXT-RELEASE LISTING COPY
+
+Prepared November 9, 2026. This copy is for the next analytics-capable update; it has not been saved in App Store Connect. Preserve the existing submission.
+
+PROMOTIONAL TEXT
+
+One less thing to remember. Simple nursing timers, next-side reminders, bottles, and diapers for one, two, or more babies. No account required.
+
+DESCRIPTION
+
+Feeding days can blur together. Double Latch helps you keep track of the last feed, which side comes next, and the little details you want to remember.
+
+Start a nursing timer with a tap. See clear left and right totals, log a bottle or diaper, and look back through your baby’s history when you need to.
+
+ONE, TWO, OR MORE BABIES.
+Create a profile for each baby, with a name, color, and optional photo. Run up to two independent nursing timers so you can keep simultaneous feeds straight.
+
+FEED YOUR WAY
+Choose Nursing, Bottle feeding, or Both. Record bottle amounts in mL or US fl oz, with optional breast milk, formula, or mixed milk details. Wet and poop records are a tap away.
+
+THE DETAILS, WHEN YOU NEED THEM
+See the last recorded feed and suggested next nursing side. Review daily totals and feeding and diaper history, add an earlier entry, or correct a record. Dark mode keeps the interface comfortable in low light.
+
+YOUR RECORDS, ON YOUR DEVICE
+Double Latch works without an account and has no ads. Optional usage and crash diagnostics are off by default and can be enabled in Settings. Records are stored locally on your device. Export nursing, bottle, and diaper CSV files, or save a full backup that you can restore later.
+
+Each device keeps its own records; records do not automatically sync between caregivers or devices.
+
+REVIEW NOTES
+
+Double Latch is a local nursing, bottle-feeding, and diaper tracker for one, two, or more babies. No account, sign-in, subscription, or in-app purchase is required.
+
+To review: add a baby on the welcome screen, choose Nursing, Bottle feeding, or Both, then open Tracking. In Nursing, tap Left or Right to start a timer and Stop to finish. Add a second baby to review two independent timers on opposite sides. The suggested nursing side follows the opposite side of the last completed nursing feed. In Both mode, use Log bottle to record an amount; the wet and poop controls record diaper changes.
+
+Open More for History, Babies, and Settings. History supports adding and correcting nursing feeds, bottles, and diaper entries. Settings includes CSV export and full backup/restore. Stop active timers before exporting or restoring a full backup.
+
+Baby photos are optional and selected with the system photo picker. Records and selected photos are stored locally. There is no advertising or automatic caregiver/device sync. Optional PostHog usage analytics and crash diagnostics are off by default, with a Share usage & diagnostics switch in Settings. Saved care records and photos are not uploaded. The app records information entered by the parent; it does not provide medical or treatment advice.
+
+PRIVACY BEFORE DISTRIBUTION
+
+Publish the updated privacy policy and update App Store Connect privacy responses for optional device-linked product interactions, care-related usage, identifiers, and crashes. Do not reuse Data Not Collected for the telemetry-capable update.
