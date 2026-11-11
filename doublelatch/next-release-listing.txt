@@ -1,6 +1,6 @@
 DOUBLE LATCH — NEXT-RELEASE LISTING COPY
 
-Prepared November 9, 2026. This copy is for the next analytics-capable update; it has not been saved in App Store Connect. Preserve the existing submission.
+Saved in the App Store Connect 1.0.1 draft on November 11, 2026. Prepare for Submission; no build attached and no submission made. Version 1.0.0 / build 6 remains Ready for Distribution and unchanged.
 
 PROMOTIONAL TEXT
 
@@ -26,6 +26,10 @@ Double Latch works without an account and has no ads. Optional usage and crash d
 
 Each device keeps its own records; records do not automatically sync between caregivers or devices.
 
+WHAT'S NEW
+
+Optional usage and crash diagnostics are now available in Settings to help improve Double Latch. Sharing is off by default, and you can turn it off at any time. Baby names, photos, notes, amounts, and saved care records are excluded.
+
 REVIEW NOTES
 
 Double Latch is a local nursing, bottle-feeding, and diaper tracker for one, two, or more babies. No account, sign-in, subscription, or in-app purchase is required.
@@ -38,4 +42,4 @@ Baby photos are optional and selected with the system photo picker. Records and 
 
 PRIVACY BEFORE DISTRIBUTION
 
-Publish the updated privacy policy and update App Store Connect privacy responses for optional device-linked product interactions, care-related usage, identifiers, and crashes. Do not reuse Data Not Collected for the telemetry-capable update.
+Next-release privacy responses are prepared locally, not published. App Store Connect privacy responses are app-wide; keep the current telemetry-free version’s Data Not Collected label until coordinating the telemetry-capable release.
