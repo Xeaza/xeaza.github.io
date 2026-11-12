@@ -1,6 +1,4 @@
-DOUBLE LATCH — NEXT-RELEASE LISTING COPY
-
-Prepared copy corrected on November 12, 2026 to reflect sharing being on by default. An earlier copy was saved in the App Store Connect 1.0.1 draft on November 11, 2026; this correction has not been saved there. Prepare for Submission; no build attached and no submission made. Version 1.0.0 / build 6 remains Ready for Distribution and unchanged.
+DOUBLE LATCH — APP STORE LISTING
 
 PROMOTIONAL TEXT
 
@@ -39,7 +37,3 @@ To review: add a baby on the welcome screen, choose Nursing, Bottle feeding, or 
 Open More for History, Babies, and Settings. History supports adding and correcting nursing feeds, bottles, and diaper entries. Settings includes CSV export and full backup/restore. Stop active timers before exporting or restoring a full backup.
 
 Baby photos are optional and selected with the system photo picker. Records and selected photos are stored locally. There is no advertising or automatic caregiver/device sync. Optional PostHog usage analytics and crash diagnostics are on by default, with a Share usage & diagnostics switch in Settings. Saved care records and photos are not uploaded. The app records information entered by the parent; it does not provide medical or treatment advice.
-
-PRIVACY BEFORE DISTRIBUTION
-
-Next-release privacy responses are prepared locally, not published. App Store Connect privacy responses are app-wide; keep the current telemetry-free version’s Data Not Collected label until coordinating the telemetry-capable release.
