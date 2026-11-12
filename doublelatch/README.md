@@ -6,7 +6,7 @@
 
 ## Retention and deletion operations
 
-Owner: Taylor Sanson. Public policy: https://taylorwrightsanson.com/doublelatch/privacy_policy.html#retention. App documentation: `Xeaza/doublelatch`, `docs/Analytics.md`. The public policy describes the applicable service settings and asynchronous deletion; it does not claim an unverified fixed deadline. **No PostHog account settings were changed by the website publication.**
+Contact us: [doublelatch@gmail.com](mailto:doublelatch@gmail.com). Public policy: https://taylorwrightsanson.com/doublelatch/privacy_policy.html#retention. App documentation: `Xeaza/doublelatch`, `docs/Analytics.md`. The public policy describes the applicable service settings and asynchronous deletion; it does not claim an unverified fixed deadline. **No PostHog account settings were changed by the website publication.**
 
 Before distributing the analytics-capable update, record the selected settings and verification date here:
 
