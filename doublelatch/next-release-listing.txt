@@ -1,6 +1,6 @@
 DOUBLE LATCH — NEXT-RELEASE LISTING COPY
 
-Saved in the App Store Connect 1.0.1 draft on November 11, 2026. Prepare for Submission; no build attached and no submission made. Version 1.0.0 / build 6 remains Ready for Distribution and unchanged.
+Prepared copy corrected on November 12, 2026 to reflect sharing being on by default. An earlier copy was saved in the App Store Connect 1.0.1 draft on November 11, 2026; this correction has not been saved there. Prepare for Submission; no build attached and no submission made. Version 1.0.0 / build 6 remains Ready for Distribution and unchanged.
 
 PROMOTIONAL TEXT
 
@@ -22,13 +22,13 @@ THE DETAILS, WHEN YOU NEED THEM
 See the last recorded feed and suggested next nursing side. Review daily totals and feeding and diaper history, add an earlier entry, or correct a record. Dark mode keeps the interface comfortable in low light.
 
 YOUR RECORDS, ON YOUR DEVICE
-Double Latch works without an account and has no ads. Optional usage and crash diagnostics are off by default and can be enabled in Settings. Records are stored locally on your device. Export nursing, bottle, and diaper CSV files, or save a full backup that you can restore later.
+Double Latch works without an account and has no ads. Optional usage and crash diagnostics are on by default and can be disabled in Settings. Records are stored locally on your device. Export nursing, bottle, and diaper CSV files, or save a full backup that you can restore later.
 
 Each device keeps its own records; records do not automatically sync between caregivers or devices.
 
 WHAT'S NEW
 
-Optional usage and crash diagnostics are now available in Settings to help improve Double Latch. Sharing is off by default, and you can turn it off at any time. Baby names, photos, notes, amounts, and saved care records are excluded.
+Optional usage and crash diagnostics are now available in Settings to help improve Double Latch. Sharing is on by default, and you can turn it off at any time. Baby names, photos, notes, amounts, and saved care records are excluded.
 
 REVIEW NOTES
 
@@ -38,7 +38,7 @@ To review: add a baby on the welcome screen, choose Nursing, Bottle feeding, or 
 
 Open More for History, Babies, and Settings. History supports adding and correcting nursing feeds, bottles, and diaper entries. Settings includes CSV export and full backup/restore. Stop active timers before exporting or restoring a full backup.
 
-Baby photos are optional and selected with the system photo picker. Records and selected photos are stored locally. There is no advertising or automatic caregiver/device sync. Optional PostHog usage analytics and crash diagnostics are off by default, with a Share usage & diagnostics switch in Settings. Saved care records and photos are not uploaded. The app records information entered by the parent; it does not provide medical or treatment advice.
+Baby photos are optional and selected with the system photo picker. Records and selected photos are stored locally. There is no advertising or automatic caregiver/device sync. Optional PostHog usage analytics and crash diagnostics are on by default, with a Share usage & diagnostics switch in Settings. Saved care records and photos are not uploaded. The app records information entered by the parent; it does not provide medical or treatment advice.
 
 PRIVACY BEFORE DISTRIBUTION
 
